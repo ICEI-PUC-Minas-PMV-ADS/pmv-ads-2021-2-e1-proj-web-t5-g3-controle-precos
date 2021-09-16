@@ -1,10 +1,10 @@
-# TÍTULO DO PROJETO
+# PREÇOS COMBUSTÍVEIS
 
-`CURSO`
+Tecnologia em Análise e Desenvolvimento de Sistemas
 
-`DISCIPLINA`
+Projeto: Desenvolvimento de Aplicação Web Front-End
 
-`SEMESTRE`
+2/2021
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
@@ -17,7 +17,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Robson Levi
 * Vânia Rezende
 
-## Orientador
+## Luciana de Nardin
 
 * Nome completo do professor 1
 
