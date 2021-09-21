@@ -17,9 +17,9 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Robson Levi
 * Vânia Rezende
 
-## Luciana de Nardin
+## Orientador
 
-* Nome completo do professor 1
+* Luciana de Nardin
 
 ## Instruções de utilização
 
