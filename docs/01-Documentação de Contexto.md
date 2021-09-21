@@ -1,46 +1,46 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Atualmente, o preço do combustível sofre grandes oscilações, em intervalos curtos de tempo. Devido às variações do dólar, da carga tributária e a ação dos demais agentes do setor de comercialização como: importadores, distribuidores, revendedores e produtores de biocombustíveis.
+Devido esse grande número de variáveis os motoristas encontram dificuldades em encontrar quais postos oferecem melhor preço e produto, mais próximos a sua localização. 
+É necessário que existam canais de informações e buscas que auxiliem os motoristas na localização do melhor produto.
+Além disso, com a variedade de bandeiras e de postos de combustíveis nas cidades, existe uma grande concorrência. Os consumidores buscam quem tem melhor credibilidade no mercado de combustíveis.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Este projeto busca resolver 2 problemas principais:
+1) a dificuldade dos motoristas em encontrar combustíveis com bom preço e qualidade;
+2) os donos de postos a se posicionarem como confiáveis nas regiões e atraírem mais clientes.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste trabalho é a criação de uma aplicação que apresente ferramentas de fácil uso e que permita o acesso aos clientes (motoristas) e fornecedores (proprietários de postos).
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, podemos ressaltar:
+
+•	Economia na compra do combustível;
+•	Atualização de preços em tempo real pelos fornecedores;
+•	Avisos sobre horário de funcionamento e estrutura dos postos;
+•	Facilitar a confiabilidade do combustível e pesquisa para o consumidor;
+•	Proprietários de postos conseguirem dar mais visibilidade e atrair mais consumidores para os postos de combustível.
+
+Portanto, este projeto busca ajudar motoristas na busca por melhor preço e qualidade de combustível na sua localização atual. Possibilitando que o cliente tome a melhor decisão baseada em informações relevantes, confiáveis e ágeis disponibilizadas pelos próprios donos dos postos.
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Um dos motivos para a alta do petróleo foi um acordo entre os membros do cartel Opep+, que estão entre os maiores produtores da commodity no mundo. Eles restringiram a produção durante a pandemia justamente para equilibrar o preço, visto que a demanda estava mais baixa por conta do isolamento social.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Outro ponto que contribui para a alta do petróleo é o dólar, que também disparou ante o real desde o ano passado. Os barris são negociados na moeda americana e este é um fator que pesa no bolso do brasileiro.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A gasolina por aqui sobe quando a Petrobras aumenta o preço nas refinarias. A partir daí, ocorre um efeito dominó e o consumidor final acaba pagando um valor ainda mais alto pelo combustível. Além do petróleo e do dólar, custos de distribuição e impostos também influenciam no preço da gasolina.
+(Site: Valor Investe — São Paulo 21/08/2021 07h45)
+
+Segundo os dados levantados, pode-se observar que a maioria dos motoristas encontram uma grande dificuldade em pesquisar os preços dos combustíveis oferecidos atualmente. Diante do fato, torna se necessário que existam aplicações que facilitam as buscas por preços e qualidades de forma confiável e ágil. 
+
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O foco deste trabalho está no consumidor de combustível e nos proprietários dos postos de combustível.
+O consumidor pode ser qualquer pessoa que abasteça seu veículo com regularidade: motorista de aplicativo, caminhoneiro, motoboy, motorista particular.
+Desta forma, estabeleceu-se como público-alvo desta solução os homens e as mulheres com mais de 18 anos que abastecem frequentemente seus veículos.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
