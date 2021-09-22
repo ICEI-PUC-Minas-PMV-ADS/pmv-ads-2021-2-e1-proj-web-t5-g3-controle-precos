@@ -1,91 +1,73 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+As personas levantadas durante o processo de entendimento do problema são apresentadas nas figuras que se seguem:
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+![Joao do Nascimento](https://user-images.githubusercontent.com/90812412/134389018-82197b8d-51f9-4f74-a96b-7dd101da4366.png)
+![Camila Sperandio](https://user-images.githubusercontent.com/90812412/134389170-2c799b47-23ed-4b20-9f0d-fd6037de50bc.png)
+![Gervasio Santos](https://user-images.githubusercontent.com/90812412/134388730-a030a3c1-f01b-47de-8c61-f275abba6f34.png)
+![Marcio Milaré](https://user-images.githubusercontent.com/90812412/134388763-72d9574a-d5e6-4c41-8020-2a8c70047262.png)
+![Gregório Petrona](https://user-images.githubusercontent.com/90812412/134387721-1118d51f-60c2-43e7-b028-c46025efa071.png)
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|João(Caminhoneiro)  | Saber onde na estrada encontrarei um posto com preço bom. | Programar bem meu percurso, minhas paradas, encher o tanque e economizar.  |
+|João(Caminhoneiro)  | Saber onde na estrada encontrarei um posto seguro. |Não correr o risco de abastecer com combustível adulterado. |
+|João(Caminhoneiro)  | Encontrar no posto que eu abastecer outros serviços.| Que eu possa me alimentar e descansar.|
+|Camila(Enfermeira)  | Saber os postos de combustível que utilizo com frequência.	| Fixá-los como favoritos em minha lista. |
+|Camila(Enfermeira)  | Confiar nos postos próximos a mim. |	Não correr risco de estragar meu veículo. |
+|Gervásio(Motorista de app) |	Comparar informações acerca da qualidade e preços tabelados de diferentes postos por região.	| Selecionar o melhor posto no quesito custo/benefício. |
+|Gervásio(Motorista de app) |	Relatório de abastecimento por posto de gasolina em que sou cliente.	| Ter um histórico e calcular o total de quanto eu abasteci seja semanalmente ou mensalmente no posto selecionado. |
+|Gervásio(Motorista de app)	| Saber os postos mais próximos de acordo com a rota que irei traçar. |	Não ter risco de ficar sem combustível. |
+|Márcio Milaré(Dono de um posto de combustiveis ) |	Fidelizar mais clientes. |	Aumentar minha rede de clientes. |
+|Márcio Milaré(Dono de um posto de combustiveis ) | Garantir o melhor custo/benefício no mercado.	| Entrar na concorrência com postos de grandes redes. |
+|Gregório Petrona(Dono de uma rede de postos) |	Aumentar a visibilidade dos meus postos de combustível. |	Atrair mais motoristas para abastecer na minha rede de postos e aumentar meu lucro. |
+Gregório Petrona(Dono de uma rede de postos) | Garantir que os motoristas saibam que meus postos contam com combustível de qualidade. | Atrair e fidelizar mais motoristas que buscam combustíveis seguros. |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+## Requisitos do Projeto
 
-## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+Dentro do pressuposto da necessidade de criação da aplicação que buscam facilitar a vida do público-alvo os requisitos do projeto são:
 
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-01 |	O site deve permitir a atualização e alteração dos preços por parte dos fornecedores. |	Alta |
+|RF-02	| O site deve permitir a atualização das localizações, razões sociais e nomes fantasias dos postos de combustíveis. |	Média |
+|RF-03	| O site deve oferecer uma funcionalidade para consultas e filtragens por nome de estabelecimento, preços e serviços.	| Média |
+|RF-04	| O site deve permitir a inclusão, alteração e exclusão das próprias informações.	| Média |
+|RF-05	| O site terá que prover uma ferramenta de geolocalização.	| Alta |
+|RF-06	| O site deverá ter uma tela de propaganda para que o fornecedor elabore uma descrição com objetivo de convencer seu cliente de que seu produto é o melhor do mercado.	| Média |
+|RF-07	| O site deverá ter um campo de observação ou caixa de seleção para que o cliente deixe seu feedback em relação ao estabelecimento, atendimento, produto e serviço.	 | Baixa |
+|RF-08	| O site deverá ter um módulo para a geração de diferentes relatórios. |	Alta |
+|RF-09	| O site deve permitir que o usuário exporte os relatórios gerados em XLS e XLSX. |	Baixa |
+|RF-10	| O site deverá ter diferentes opções de pagamento como cartão de débito e crédito, PIX, dinheiro, etc. |	Média |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-01 | 	O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku). |	Alta |
+|RNF-02	| O site deve ter um layout e interface autodidático e otimizado. | Alta |
+|RNF-03 |	O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).	| Alta |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|RE-01 |	O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 06/12/2021. |
+|RE-02 |	O aplicativo deve se restringir às tecnologias básicas da Web no Front-end. |
+|RE-03 |	A equipe não pode subcontratar o desenvolvimento do trabalho. |
