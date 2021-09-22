@@ -13,7 +13,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * André Soares
 * Bruno Natividade
 * Camila Leopoldino
-* Nayara Ketlen
+* Nayara Katlin
 * Robson Levi
 * Vânia Rezende
 
