@@ -32,8 +32,8 @@ Um dos motivos para a alta do petróleo foi um acordo entre os membros do cartel
 
 Outro ponto que contribui para a alta do petróleo é o dólar, que também disparou ante o real desde o ano passado. Os barris são negociados na moeda americana e este é um fator que pesa no bolso do brasileiro.
 
-A gasolina por aqui sobe quando a Petrobras aumenta o preço nas refinarias. A partir daí, ocorre um efeito dominó e o consumidor final acaba pagando um valor ainda mais alto pelo combustível. Além do petróleo e do dólar, custos de distribuição e impostos também influenciam no preço da gasolina.
-(Site: Valor Investe — São Paulo 21/08/2021 07h45)
+A gasolina por aqui sobe quando a Petrobras aumenta o preço nas refinarias. A partir daí, ocorre um efeito dominó e o consumidor final acaba pagando um valor ainda mais alto pelo combustível. Além do petróleo e do dólar, custos de distribuição e impostos também influenciam no preço da gasolina
+(Valor investe, 2021).
 
 Segundo os dados levantados, pode-se observar que a maioria dos motoristas encontram uma grande dificuldade em pesquisar os preços dos combustíveis oferecidos atualmente. Diante do fato, torna se necessário que existam aplicações que facilitam as buscas por preços e qualidades de forma confiável e ágil. 
 
