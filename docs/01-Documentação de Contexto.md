@@ -1,6 +1,6 @@
 # Introdução
 
-Atualmente, o preço do combustível sofre grandes oscilações, em intervalos curtos de tempo. Devido às variações do dólar, da carga tributária e a ação dos demais agentes do setor de comercialização como: importadores, distribuidores, revendedores e produtores de biocombustíveis.
+Atualmente, o preço do combustível sofre oscilações, em intervalos curtos de tempo. Devido às variações do dólar, da carga tributária e a ação dos demais agentes do setor de comercialização como: importadores, distribuidores, revendedores e produtores de biocombustíveis.
 Devido esse grande número de variáveis os motoristas encontram dificuldades em encontrar quais postos oferecem melhor preço e produto, mais próximos a sua localização. 
 É necessário que existam canais de informações e buscas que auxiliem os motoristas na localização do melhor produto.
 Além disso, com a variedade de bandeiras e de postos de combustíveis nas cidades, existe uma grande concorrência. Os consumidores buscam quem tem melhor credibilidade no mercado de combustíveis.
