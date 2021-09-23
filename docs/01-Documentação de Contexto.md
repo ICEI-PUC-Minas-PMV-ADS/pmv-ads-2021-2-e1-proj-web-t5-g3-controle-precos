@@ -3,7 +3,7 @@ Atualmente, os preços dos combustíveis sofrem oscilações, em intervalos curt
 
 Devido a esse grande número de variáveis os motoristas se deparam com dificuldades em encontrar quais postos oferecem melhor preço e produto, próximos a sua localização. Além disso, existem diversas variedades de bandeiras e de postos nas cidades o que gera muita concorrência, pois os consumidores buscam quem tem melhor credibilidade no mercado.
 
-Sendo assim, é necessário que existam canais de consultas e informações para auxiliar os usuários motoristas na localização do melhor preço e proporcionar oportunidade para os usuários proprietários dos postos de combustíveis se posicionarem no mercado online.
+Sendo assim, é necessário que existam canais de consultas e informações para auxiliar os consumidores na localização do melhor preço e proporcionar oportunidade para os fornecedores de combustíveis se posicionarem no mercado online.
 
 
 ## Problema
