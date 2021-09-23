@@ -1,14 +1,13 @@
 # Introdução
+Atualmente, os preços dos combustíveis sofrem oscilações, em intervalos curtos de tempo. A ANP (Agência Nacional do Petróleo, Gás Natural e Biocombustíveis) divulga a estrutura de formação dos preços dos combustíveis e reproduz dados do Ministério de Minas Energia que detalham os valores praticados. Porém, os preços dos combustíveis ao consumidor final variam como consequência dos preços nas refinarias; dos tributos estaduais e federais incidentes ao longo da cadeia de comercialização (PIS/Pasep e Cofins, Cide e ICMS); dos custos e despesas operacionais de cada empresa; dos biocombustíveis adicionados ao diesel e à gasolina e das margens de distribuição e de revenda.
 
-Atualmente, o preço do combustível sofre oscilações, em intervalos curtos de tempo. Devido às variações do dólar, da carga tributária e a ação dos demais agentes do setor de comercialização como: importadores, distribuidores, revendedores e produtores de biocombustíveis.
-Devido esse grande número de variáveis os motoristas encontram dificuldades em encontrar quais postos oferecem melhor preço e produto, mais próximos a sua localização. 
-É necessário que existam canais de informações e buscas que auxiliem os motoristas na localização do melhor produto.
-Além disso, com a variedade de bandeiras e de postos de combustíveis nas cidades, existe uma grande concorrência. Os consumidores buscam quem tem melhor credibilidade no mercado de combustíveis.
+Devido a esse grande número de variáveis os motoristas se deparam com dificuldades em encontrar quais postos oferecem melhor preço e produto, próximos a sua localização. Além disso, existem diversas variedades de bandeiras e de postos nas cidades o que gera muita concorrência, pois os consumidores buscam quem tem melhor credibilidade no mercado.
+
+Sendo assim, é necessário que existam canais de consultas e informações para auxiliar os usuários motoristas na localização do melhor preço e proporcionar oportunidade para os usuários proprietários dos postos de combustíveis se posicionarem no mercado online.
+
 
 ## Problema
-Este projeto busca resolver 2 problemas principais:
-1) a dificuldade dos motoristas em encontrar combustíveis com bom preço e qualidade;
-2) os donos de postos a se posicionarem como confiáveis nas regiões e atraírem mais clientes.
+Perante o exposto, o problema que se busca resolver é o desgaste que os motoristas enfrentam para localizar melhores preços e qualidade nas compras de combustíveis.  Além disso, o projeto propõe ajudar os postos de combustíveis em se posicionarem no mercado de forma confiável para atraírem mais consumidores. 
 
 
 ## Objetivos
@@ -32,8 +31,8 @@ Um dos motivos para a alta do petróleo foi um acordo entre os membros do cartel
 
 Outro ponto que contribui para a alta do petróleo é o dólar, que também disparou ante o real desde o ano passado. Os barris são negociados na moeda americana e este é um fator que pesa no bolso do brasileiro.
 
-A gasolina por aqui sobe quando a Petrobras aumenta o preço nas refinarias. A partir daí, ocorre um efeito dominó e o consumidor final acaba pagando um valor ainda mais alto pelo combustível. Além do petróleo e do dólar, custos de distribuição e impostos também influenciam no preço da gasolina
-(Valor investe, 2021).
+A gasolina por aqui sobe quando a Petrobras aumenta o preço nas refinarias. A partir daí, ocorre um efeito dominó e o consumidor final acaba pagando um valor ainda mais alto pelo combustível. Além do petróleo e do dólar, custos de distribuição e impostos também influenciam no preço da gasolina.
+(Site: Valor Investe — São Paulo 21/08/2021 07h45)
 
 Segundo os dados levantados, pode-se observar que a maioria dos motoristas encontram uma grande dificuldade em pesquisar os preços dos combustíveis oferecidos atualmente. Diante do fato, torna se necessário que existam aplicações que facilitam as buscas por preços e qualidades de forma confiável e ágil. 
 
