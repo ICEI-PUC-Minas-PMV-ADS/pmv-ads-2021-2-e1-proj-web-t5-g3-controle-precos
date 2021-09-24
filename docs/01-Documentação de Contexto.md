@@ -12,15 +12,17 @@ Perante o exposto, o problema que se busca resolver é o desgaste que os motoris
 
 ## Objetivos
 
-O objetivo geral deste trabalho é a criação de uma aplicação que apresente ferramentas de fácil uso e que permita o acesso aos clientes (motoristas) e fornecedores (proprietários de postos).
+Objetivos
+
+O objetivo geral deste trabalho é a criação de um site que apresente ferramentas de fácil uso e que permita o acesso aos consumidores e fornecedores.
 
 Como objetivos específicos, podemos ressaltar:
 
-•	Economia na compra do combustível;
-•	Atualização de preços em tempo real pelos fornecedores;
-•	Avisos sobre horário de funcionamento e estrutura dos postos;
-•	Facilitar a confiabilidade do combustível e pesquisa para o consumidor;
-•	Proprietários de postos conseguirem dar mais visibilidade e atrair mais consumidores para os postos de combustível.
+    • Permitir que os clientes possam comparar preços de combustíveis e escolher onde abastecer;
+    • Permitir que os preços sejam atualizados em tempo real pelos fornecedores;
+    • Disponibilizar informações sobre horário de funcionamento e estrutura dos postos;
+    • Permitir que os cliente possam realizar avaliações públicas dos postos;
+    • Fornecedores conseguirem dar mais visibilidade e atrair mais consumidores para os postos de combustível.
 
 Portanto, este projeto busca ajudar motoristas na busca por melhor preço e qualidade de combustível na sua localização atual. Possibilitando que o cliente tome a melhor decisão baseada em informações relevantes, confiáveis e ágeis disponibilizadas pelos próprios donos dos postos.
 
