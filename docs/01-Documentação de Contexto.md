@@ -17,7 +17,7 @@ Como objetivos específicos, podemos ressaltar:
 
     • Permitir que os clientes possam comparar preços de combustíveis e escolher onde abastecer;
     • Permitir que os preços sejam atualizados em tempo real pelos fornecedores;
-    • Disponibilizar informações dos postos sobre horário de funcionamento, estrutura e serviços (lojas de conveniência, lava-jato, garagem e banheiros);
+    • Disponibilizar informações dos postos sobre horário de funcionamento, estrutura e serviços (lojas de conveniência, lava-jato, estacionamento e banheiros);
     • Permitir que os cliente possam realizar avaliações públicas dos postos;
     • Permitir que os fornecedor possam responder aos comentários das avaliações feitas pelos consumidores;
     • Permitir que os fornecedores divulguem anúncios e propagandas.
