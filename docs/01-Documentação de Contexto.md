@@ -17,7 +17,7 @@ Como objetivos específicos, podemos ressaltar:
 
     • Permitir que os clientes possam comparar preços de combustíveis e escolher onde abastecer;
     • Permitir que os preços sejam atualizados em tempo real pelos fornecedores;
-    • Disponibilizar informações dos postos sobre horário de funcionamento, estrutura e serviços (lojas de conveniência, lava-jato, estacionamento e banheiros);
+    • Disponibilizar informações dos postos sobre horário de funcionamento, estrutura e serviços (lojas de conveniência, lava-jato, garagem e banheiros);
     • Permitir que os cliente possam realizar avaliações públicas dos postos;
     • Permitir que os fornecedor possam responder aos comentários das avaliações feitas pelos consumidores;
     • Permitir que os fornecedores divulguem anúncios e propagandas.
@@ -29,10 +29,9 @@ Um dos motivos para a alta do petróleo foi um acordo entre os membros do cartel
 
 Outro ponto que contribui para a alta do petróleo é o dólar, que também disparou ante o real desde o ano passado. Os barris são negociados na moeda americana e este é um fator que pesa no bolso do brasileiro.
 
-A gasolina por aqui sobe quando a Petrobras aumenta o preço nas refinarias. A partir daí, ocorre um efeito dominó e o consumidor final acaba pagando um valor ainda mais alto pelo combustível. Além do petróleo e do dólar, custos de distribuição e impostos também influenciam no preço da gasolina.
-(Site: Valor Investe — São Paulo 21/08/2021 07h45)
+A gasolina por aqui sobe quando a Petrobras aumenta o preço nas refinarias. A partir daí, ocorre um efeito dominó e o consumidor final acaba pagando um valor ainda mais alto pelo combustível. Além do petróleo e do dólar, custos de distribuição e impostos também influenciam no preço da gasolina.  (VALOR INVESTE, 2021).
 
-Segundo os dados levantados, pode-se observar que a maioria dos motoristas encontram uma grande dificuldade em pesquisar os preços dos combustíveis oferecidos atualmente. Diante do fato, torna se necessário que existam aplicações que facilitam as buscas por preços e qualidades de forma confiável e ágil. 
+Segundo os dados levantados, pode-se observar que a maioria dos consumidores encontram uma grande dificuldade em pesquisar os preços dos combustíveis oferecidos, visto que na maioria dos casos os consumidores se deslocam de posto em posto até encontrar o melhor preço. Diante do fato, torna se necessário a existência de um site para facilitar a busca por produtos de qualidade e bom preço.
 
 
 ## Público-Alvo
