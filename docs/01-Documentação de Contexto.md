@@ -12,7 +12,6 @@ Perante o exposto, o problema que se busca resolver é o desgaste que os motoris
 
 ## Objetivos
 
-Objetivos
 
 O objetivo geral deste trabalho é a criação de um site que apresente ferramentas de fácil uso e que permita o acesso aos consumidores e fornecedores.
 
