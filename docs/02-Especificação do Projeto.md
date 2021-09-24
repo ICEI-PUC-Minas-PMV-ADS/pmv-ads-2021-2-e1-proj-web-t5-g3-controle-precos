@@ -49,8 +49,7 @@ Dentro do pressuposto da necessidade de criação da aplicação que buscam faci
 |RF-06	| O site deverá ter uma tela de propaganda para que o fornecedor elabore uma descrição com objetivo de convencer seu cliente de que seu produto é o melhor do mercado.	| Média |
 |RF-07	| O site deverá ter um campo de observação ou caixa de seleção para que o cliente deixe seu feedback em relação ao estabelecimento, atendimento, produto e serviço.	 | Baixa |
 |RF-08	| O site deverá ter um módulo para a geração de diferentes relatórios. |	Alta |
-|RF-09	| O site deve permitir que o usuário exporte os relatórios gerados em XLS e XLSX. |	Baixa |
-|RF-10	| O site deverá ter diferentes opções de pagamento como cartão de débito e crédito, PIX, dinheiro, etc. |	Média |
+
 
 
 ### Requisitos não Funcionais
