@@ -11,7 +11,6 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * André Soares
-* Bruno Natividade
 * Camila Leopoldino
 * Nayara Katlin
 * Robson Levi
