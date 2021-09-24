@@ -44,7 +44,7 @@ Dentro do pressuposto da necessidade de criação da aplicação que buscam faci
 |RF-01 |	O site deve permitir a atualização e alteração dos preços por parte dos fornecedores. |	Alta |
 |RF-02	| O site deve permitir o gerenciamento dos cadastros de fornecedores. Será permitido a inclusão, exclusão e atualização de dados e para cada posto deverão ser informados: razão social, nome fantasia, endereços e serviços.  |	Média |
 |RF-03	| O site deve oferecer uma funcionalidade para consultas e filtragens por nome de estabelecimento, preços e serviços.	| Média |
-|RF-04	| O site deve permitir o gerenciamento acerca do cadastro do consumidor.	| Média |
+|RF-04	| O site deve permitir o gerenciamento acerca do cadastro do consumidor. Será permitido a inclusão, exclusão e atualização de dados e para cada cadastro deverão ser informados: Login, nome completo, e-mail e senha. 	| Média |
 |RF-05	| O site terá que prover uma ferramenta de geolocalização.	| Alta |
 |RF-06	| O site deverá ter uma tela de propaganda para que o fornecedor elabore uma descrição com objetivo de convencer seu cliente de que seu produto é o melhor do mercado.	| Média |
 |RF-07	| O site deverá ter um campo de observação e avaliação por meio de estrelas (Ex= 1 estrela: muito ruim ... 5 estrelas: Excelente) para que o cliente deixe seu feedback em relação ao estabelecimento, atendimento, produto e serviço.	 | Baixa |
