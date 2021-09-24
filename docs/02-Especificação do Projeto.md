@@ -25,7 +25,6 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 |Camila(Enfermeira)  | Saber os postos de combustível que utilizo com frequência.	| Fixá-los como favoritos em minha lista. |
 |Camila(Enfermeira)  | Confiar nos postos próximos a mim. |	Não correr risco de estragar meu veículo. |
 |Gervásio(Motorista de app) |	Comparar informações acerca da qualidade e preços tabelados de diferentes postos por região.	| Selecionar o melhor posto no quesito custo/benefício. |
-|Gervásio(Motorista de app) |	Relatório de abastecimento por posto de gasolina em que sou cliente.	| Ter um histórico e calcular o total de quanto eu abasteci seja semanalmente ou mensalmente no posto selecionado. |
 |Gervásio(Motorista de app)	| Saber os postos mais próximos de acordo com a rota que irei traçar. |	Não ter risco de ficar sem combustível. |
 |Márcio Milaré(Dono de um posto de combustiveis ) |	Fidelizar mais clientes. |	Aumentar minha rede de clientes. |
 |Márcio Milaré(Dono de um posto de combustiveis ) | Garantir o melhor custo/benefício no mercado.	| Entrar na concorrência com postos de grandes redes. |
