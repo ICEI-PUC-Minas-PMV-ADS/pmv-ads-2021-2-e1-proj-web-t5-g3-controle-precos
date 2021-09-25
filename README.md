@@ -6,7 +6,7 @@ Projeto: Desenvolvimento de Aplicação Web Front-End
 
 2/2021
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Criação de uma plataforma de consultas e informações para auxiliar os consumidores na busca pelo melhor preço na compra de combustível.
 
 ## Integrantes
 
