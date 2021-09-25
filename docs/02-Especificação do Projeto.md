@@ -23,14 +23,13 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 |João(Caminhoneiro)  | Saber onde na estrada encontrarei um posto seguro. |Não correr o risco de abastecer com combustível adulterado. |
 |João(Caminhoneiro)  | Encontrar no posto que eu abastecer outros serviços.| Que eu possa me alimentar e descansar.|
 |Camila(Enfermeira)  | Saber os postos de combustível que utilizo com frequência.	| Fixá-los como favoritos em minha lista. |
-|Camila(Enfermeira)  | Confiar nos postos próximos a mim. |	Não correr risco de estragar meu veículo. |
-|Gervásio(Motorista de app) |	Comparar informações acerca da qualidade e preços tabelados de diferentes postos por região.	| Selecionar o melhor posto no quesito custo/benefício. |
-|Gervásio(Motorista de app) |	Relatório de abastecimento por posto de gasolina em que sou cliente.	| Ter um histórico e calcular o total de quanto eu abasteci seja semanalmente ou mensalmente no posto selecionado. |
+|Camila(Enfermeira), João (Caminhoneiro) | Confiar nos postos próximos a mim. |	Não correr risco de estragar meu veículo. |
+|Gervásio(Motorista de app), João (Caminhoneiro) |	Comparar informações acerca da qualidade e preços tabelados de diferentes postos por região.	| Selecionar o melhor posto no quesito custo/benefício. |
 |Gervásio(Motorista de app)	| Saber os postos mais próximos de acordo com a rota que irei traçar. |	Não ter risco de ficar sem combustível. |
-|Márcio Milaré(Dono de um posto de combustiveis ) |	Fidelizar mais clientes. |	Aumentar minha rede de clientes. |
-|Márcio Milaré(Dono de um posto de combustiveis ) | Garantir o melhor custo/benefício no mercado.	| Entrar na concorrência com postos de grandes redes. |
-|Gregório Petrona(Dono de uma rede de postos) |	Aumentar a visibilidade dos meus postos de combustível. |	Atrair mais motoristas para abastecer na minha rede de postos e aumentar meu lucro. |
-Gregório Petrona(Dono de uma rede de postos) | Garantir que os motoristas saibam que meus postos contam com combustível de qualidade. | Atrair e fidelizar mais motoristas que buscam combustíveis seguros. |
+|Márcio Milaré(Dono de um posto Bandeira Branca de combustivel ) |	Fidelizar mais clientes. |	Aumentar minha rede de Consumidores. |
+|Márcio Milaré(Dono de um posto Bandeira Branca de combustivel ) | Garantir o melhor custo/benefício no mercado.	| Entrar na concorrência com postos de grandes redes. |
+|Gregório Petrona(Dono de postos de combustiveis da Bandeira Shell) |	Aumentar a visibilidade dos meus postos de combustível. |	Atrair mais consumidores para abastecer na minha rede de postos e aumentar meu lucro. |
+Gregório Petrona(Dono de postos de combustiveis da Bandeira Shell) | Garantir que os motoristas saibam que meus postos contam com combustível de qualidade. | Atrair e fidelizar mais motoristas que buscam combustíveis seguros. |
 
 
 ## Requisitos do Projeto
@@ -47,7 +46,7 @@ Dentro do pressuposto da necessidade de criação da aplicação que buscam faci
 |RF-04	| O site deve permitir o gerenciamento acerca do cadastro do consumidor. Será permitido a inclusão, exclusão e atualização de dados e para cada cadastro deverão ser informados: Login, nome completo, e-mail e senha. 	| Média |
 |RF-05	| O site terá que prover uma ferramenta de geolocalização.	| Alta |
 |RF-06	| O site permitirá que o fornecedor elabore uma descrição com objetivo de convencer seu cliente de que seu produto é o melhor do mercado.	| Média |
-|RF-07	| O site deverá ter um campo de observação e avaliação por meio de estrelas (Ex= 1 estrela: muito ruim ... 5 estrelas: Excelente) para que o cliente deixe seu feedback em relação ao estabelecimento, atendimento, produto e serviço.	 | Baixa |
+|RF-07	| O site deverá ter um campo de observação e avaliação por meio de 0 á 5 estrelas (Sendo 5 Estrelas excelente e 1 muito ruim) para que o cliente deixe seu feedback em relação ao estabelecimento, atendimento, produto e serviço.	 | Baixa |
 |RF-08	| O site permitirá que o fornecedor responda os feedbacks de seus consumidores através de uma caixa de mensagens. |	Alta |
 
 
