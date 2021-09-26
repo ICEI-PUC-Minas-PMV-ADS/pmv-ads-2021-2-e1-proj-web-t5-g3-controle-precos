@@ -9,8 +9,9 @@ As personas levantadas durante o processo de entendimento do problema são apres
 ![Joao do Nascimento](https://user-images.githubusercontent.com/90812412/134389018-82197b8d-51f9-4f74-a96b-7dd101da4366.png)
 ![Camila Sperandio](https://user-images.githubusercontent.com/90812412/134389170-2c799b47-23ed-4b20-9f0d-fd6037de50bc.png)
 ![Gervasio Santos](https://user-images.githubusercontent.com/90812412/134388730-a030a3c1-f01b-47de-8c61-f275abba6f34.png)
-![Marcio Milaré](https://user-images.githubusercontent.com/90812412/134388763-72d9574a-d5e6-4c41-8020-2a8c70047262.png)
-![Gregório Petrona](https://user-images.githubusercontent.com/90812412/134387721-1118d51f-60c2-43e7-b028-c46025efa071.png)
+![Marcio Milaré](https://user-images.githubusercontent.com/90812412/134788816-856b9d86-9d74-4131-bd38-d75c9e926a4c.png)
+![Gregório Petrona](https://user-images.githubusercontent.com/90812412/134788817-eef79835-daac-4da4-98c5-7275ab8b9878.png)
+
 
 
 ## Histórias de Usuários
