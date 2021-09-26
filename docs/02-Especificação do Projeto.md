@@ -47,7 +47,7 @@ Dentro do pressuposto da necessidade de criação da aplicação que buscam faci
 |RF-04	| O site deve permitir o gerenciamento acerca do cadastro do consumidor. Será permitido a inclusão, exclusão e atualização de dados e para cada cadastro deverão ser informados: Login, nome completo, e-mail e senha. 	| Média |
 |RF-05	| O site terá que prover uma ferramenta de geolocalização.	| Alta |
 |RF-06	| O site permitirá que o fornecedor elabore uma descrição com objetivo de convencer seu cliente de que seu produto é o melhor do mercado.	| Média |
-|RF-07	| O site deverá ter um campo de observação e avaliação por meio de 0 á 5 estrelas (Sendo 5 Estrelas excelente e 1 muito ruim) para que o cliente deixe seu feedback em relação ao estabelecimento, atendimento, produto e serviço.	 | Baixa |
+|RF-07	| O site deverá ter um campo de observação e avaliação por meio de notas 0 á 5 estrelas (Sendo 5 Estrelas: Excelente e 1 estrela: Muito ruim) para que o cliente deixe seu feedback em relação ao estabelecimento, atendimento, produto e serviço.	 | Baixa |
 |RF-08	| O site permitirá que o fornecedor responda os feedbacks de seus consumidores através de uma caixa de mensagens. |	Alta |
 
 
