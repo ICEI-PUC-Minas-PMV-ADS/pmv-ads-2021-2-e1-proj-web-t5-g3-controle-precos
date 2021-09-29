@@ -6,7 +6,7 @@ Projeto: Desenvolvimento de Aplicação Web Front-End
 
 2/2021
 
-Criação de uma plataforma de consultas e informações para auxiliar os consumidores na busca pelo melhor preço na compra de combustível.
+Criação de uma plataforma de consultas e informações  para auxiliar os consumidores na busca pelo melhor preço e proporcionar oportunidades para os fornecedores de combustíveis se posicionarem no mercado online.
 
 ## Integrantes
 
