@@ -1,13 +1,15 @@
 # Introdução
-Atualmente, os preços dos combustíveis sofrem oscilações, em intervalos curtos de tempo. A ANP (Agência Nacional do Petróleo, Gás Natural e Biocombustíveis) divulga a estrutura de formação dos preços dos combustíveis e reproduz dados do Ministério de Minas Energia que detalham os valores praticados. Porém, os preços dos combustíveis ao consumidor final variam como consequência dos preços nas refinarias; dos tributos estaduais e federais incidentes ao longo da cadeia de comercialização (PIS/Pasep e Cofins, Cide e ICMS); dos custos e despesas operacionais de cada empresa; dos biocombustíveis adicionados ao diesel e à gasolina e das margens de distribuição e de revenda.
+Atualmente, os preços dos combustíveis vêm sofrendo expressivas oscilações em um curto intervalo de tempo. No Brasil, de acordo com dados do Índice Nacional de Preços ao Consumidor Amplo (IPCA), divulgado pelo IBGE em setembro de 2021, no acumulado deste ano até agosto, a gasolina já acumulou alta de 31,09%, o etanol 40,75% e o diesel 28,02%.
 
-Devido a esse grande número de variáveis os motoristas se deparam com dificuldades em encontrar quais postos oferecem melhor preço e produto, próximos a sua localização. Além disso, existem diversas variedades de bandeiras e de postos nas cidades o que gera muita concorrência, pois os consumidores buscam quem tem melhor credibilidade no mercado.
+A ANP (Agência Nacional do Petróleo, Gás Natural e Biocombustíveis) divulga a estrutura de formação dos preços dos combustíveis e reproduz dados do Ministério de Minas Energia que detalham os valores praticados. Porém, até chegar ao consumidor final, o valor é impactado por diversos fatores, como os preços nas refinarias, os tributos estaduais e federais incidentes ao longo da cadeia de comercialização (PIS/Pasep e Cofins, Cide e ICMS), as despesas operacionais de cada empresa, os custos dos biocombustíveis adicionados ao diesel e à gasolina, além das margens de distribuição e revenda.
 
-Sendo assim, é necessário que existam canais de consultas e informações para auxiliar os consumidores na localização do melhor preço e proporcionar oportunidade para os fornecedores de combustíveis se posicionarem no mercado online.
+Devido a esse grande número de variáveis, os motoristas se deparam com dificuldades em encontrar os postos que oferecem melhor preço e qualidade, próximos a sua localização. No mercado, existem diversas bandeiras e diferentes postos. Como os consumidores buscam quem tem melhor credibilidade, os donos (fornecedores) enfrentam alta competitividade neste segmento.
+
+Dessa maneira, é oportuno que existam canais de consultas e informações para auxiliar os consumidores na busca pelo melhor preço e proporcionar oportunidades para os fornecedores de combustíveis se posicionarem no mercado online e atraírem mais motoristas.
 
 
 ## Problema
-Perante o exposto, o problema que se busca resolver é o desgaste que os motoristas enfrentam para localizar melhores preços e qualidade nas compras de combustíveis.  Além disso, o projeto propõe ajudar os postos de combustíveis em se posicionarem no mercado de forma confiável para atraírem mais consumidores. 
+De acordo com o cenário exposto, o problema que se busca resolver é o desafio que os motoristas enfrentam hoje para encontrar o melhor preço e qualidade nas compras de combustíveis.  Além disso, o projeto propõe ajudar também os fornecedores a posicionarem os postos no ambiente digital de forma confiável e acessível, visando alcançar e fidelizar mais consumidores.
 
 
 ## Objetivos
@@ -36,7 +38,7 @@ Segundo os dados levantados, pode-se observar que a maioria dos consumidores enc
 
 ## Público-Alvo
 
-O foco deste trabalho está no consumidor de combustível e nos proprietários dos postos de combustível.
+O foco deste trabalho está no consumidor de combustível e nos proprietários dos postos de combustível (fornecedores).
 O consumidor pode ser qualquer pessoa que abasteça seu veículo com regularidade: motorista de aplicativo, caminhoneiro, motoboy, motorista particular.
 Desta forma, estabeleceu-se como público-alvo desta solução os homens e as mulheres com mais de 18 anos que abastecem frequentemente seus veículos.
 
