@@ -22,7 +22,7 @@ A solução implementada conta com os seguintes módulos:
      - **Canais** - seções de notícias apresentadas 
      - **Comentários** - registro de opiniões dos usuários sobre as notícias
      - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
- - **News API** - plataforma que permite o acesso às notícias exibidas no site.
+ - **APIs** - Ferramenta que permite criar um mapa personalizado, pesquisar itinerários ou dados de localização ao vivo no site.
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
 > **Links Úteis**:
