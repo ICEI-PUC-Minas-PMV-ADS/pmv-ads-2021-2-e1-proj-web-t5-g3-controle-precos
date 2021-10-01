@@ -5,8 +5,9 @@ A Metodologia consiste nas definições do ferramental utilizado pelo grupo tant
 ##  Relação de  Ambientes de Trabalho
 Os artefatos do projeto são desenvolvidos com base em diversas plataformas e a ligação dos ambientes com sua respectiva finalidade é retratado na tabela abaixo.
 
-
-
+<p align-"center">
+<img src="https://user-images.githubusercontent.com/91228798/135556341-0e4ab1c3-ef10-4964-8c09-deb2a3ac9c5b.PNG" width="600px" />
+</p>
 
 
 ## Gestão do Código Fonte
