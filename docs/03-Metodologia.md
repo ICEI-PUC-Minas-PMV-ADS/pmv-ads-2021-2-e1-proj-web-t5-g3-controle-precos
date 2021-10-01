@@ -6,20 +6,17 @@ A Metodologia consiste nas definições do ferramental utilizado pelo grupo tant
 Os artefatos do projeto são desenvolvidos com base em diversas plataformas e a ligação dos ambientes com sua respectiva finalidade é retratado na tabela abaixo.
 
 
-![Ambiente de Trabalho](https://user-images.githubusercontent.com/91228798/135366941-ead57073-c264-426a-8c44-6cae02dc685d.PNG)
+
+
 
 ## Gestão do Código Fonte
+A gestão do código fonte do software desenvolvido pelo grupo é baseada no fluxo de trabalho Git Flow. Este fluxo é ideal para projetos que possuem um ciclo de entrega agendada. Dessa forma, conseguimos manter a padronização e organização, pois as manutenções podem ser realizadas em branches identificados como: Master, Hotfix, Release, Develop e Feature, conforme ilustrado na imagem abaixo.
+
+<p align-"center">
+<img src="https://user-images.githubusercontent.com/91228798/135550946-63455994-400d-417b-808e-c5e20f242dcf.png" width="500px" />
+</p>
+
 
 ## Gerenciamento de Projeto
 
-
-### Processo
-
-
-
-### Ferramentas
-
-
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
 
