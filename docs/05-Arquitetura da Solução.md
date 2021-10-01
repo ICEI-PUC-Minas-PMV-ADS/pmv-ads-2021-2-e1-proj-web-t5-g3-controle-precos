@@ -19,9 +19,10 @@ A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
   - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
    - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Canais** - seções de notícias apresentadas 
-     - **Comentários** - registro de opiniões dos usuários sobre as notícias
-     - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
+     - **Dados do usuário** - Informações sobre o usuário. (Nome, CNPJ/CPF, telefone, senha, etc.)
+     - **Preços** - Preços que serão cadastrados pelo fornecedor.
+     - **Comentários** - Comentários do consumidor acerca dos serviços e produtos do fornecedor.
+     - **Avaliações** - Avaliação do consumidor por meio de estrelas.
  - **APIs** - Ferramenta que permite criar um mapa personalizado, pesquisar itinerários ou dados de localização ao vivo no site.
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
