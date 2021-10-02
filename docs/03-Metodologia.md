@@ -5,9 +5,14 @@ A Metodologia consiste nas definições do ferramental utilizado pelo grupo tant
 ##  Relação de  Ambientes de Trabalho
 Os artefatos do projeto são desenvolvidos com base em diversas plataformas e a ligação dos ambientes com sua respectiva finalidade é retratado na tabela abaixo.
 
-<p align-"center">
-<img src="https://user-images.githubusercontent.com/91228798/135556341-0e4ab1c3-ef10-4964-8c09-deb2a3ac9c5b.PNG" width="600px" />
-</p>
+
+|            Ambiente             |  Plataforma  |  Link de Acesso              |
+|---------------------------------|--------------|------------------------------|
+|Repositório de código fonte      |    GitHub    |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t5-g3-controle-precos                            |
+|Documentos do projeto            |    GitHub    |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t5-g3-controle-precos/tree/main/docs             |
+|Projeto de Interface e Wireframes|  MarvelApp   |https://marvelapp.com/prototype/a6d8hh5       |
+|Gerenciamento do Projeto         |    GitHub    |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t5-g3-controle-precos/tree/main/src              |
+
 
 
 ## Gestão do Código Fonte
@@ -19,5 +24,15 @@ A gestão do código fonte do software desenvolvido pelo grupo é baseada no flu
 
 
 ## Gerenciamento de Projeto
+A equipe irá utilizar o Scrum, pois tem uma gestão ágil de desenvolvimento. Dessa forma, conseguimos planejar o tempo que levamos para finalizar cada etapa de modo produtivo e eficaz, diminuindo o impacto das alterações no fluxo do processo alcançando os objetivos definidos durante a etapa de planejamento.
 
+A equipe está organizada da seguinte maneira:
+    • Scrum Master: André Soares
+    • Product Owner: Robson Levi
+    • Equipe de Desenvolvimento
+        ◦ Camila Leopoldino
+        ◦ Nayara Katlin
+        
+    • Equipe de Design
+        ◦ Vânia Maria
 
