@@ -11,6 +11,8 @@ Dentre as preocupações para a montagem da interface do sistema estabelecemos o
 
 
 ![UserFlow](img/fluxo-usuario.png)
+<b>Figura X - Fluxo de telas do usuário</b>
+</p>
 
 O diagrama apresentado na figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de wireframes que seguinte. Para visualizar o wireframe interativo acesse o http://marvelapp.com/prototype/a6d8hh5.
 
