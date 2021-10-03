@@ -17,6 +17,15 @@ O diagrama apresentado na figura X mostra o fluxo de interação do usuário pel
 
 
 ## Wireframes
+Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens seguintes. As telas do sistema apresentam uma estrutura comum que é apresentada na Figura X. Nesta estrutura, existem 4 grandes blocos, descritos a seguir. São eles:
+
+●Header- local onde são dispostos elementos fixos de identidade (logo) e o login);
+
+●Body- apresenta a geolocalização em destaque;
+
+●Sidebar - apresenta o botão sobre a empresa;
+
+●Footer – apresenta o acesso as áreas de cadastros tanto consumidor quanto para fornecedor;
 
 ![Exemplo de Wireframe](img/estruturapadrao.jpg)
 
