@@ -31,12 +31,19 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 
 ![Exemplo de Wireframe](img/estruturapadrao.jpg)
 
+<b>Figura X - Estrutura Padrão do Site</b>
+</p>
+
+
 
 ## Tela Home - Page
 
 A tela home-page mostra a área principal do site. Com base na estrutura padrão traz o logo e os acessos ao login, cadastros de consumidores e fornecedores, o API sistema geolocalização utilizada pelo site pra encontrar a localização dos postos e suas informações sobre a empresa.
 
 ![telahomepage](img/sejabemvindo1.jpeg)
+
+<b>Figura X - Home Page</b>
+</p>
 
 
 ## Tela Localização do Posto
