@@ -50,6 +50,7 @@ A tela de cadastro dos consumidores e fornecedores será onde consumidores digit
 
 ![cadastros](img/cadastroconsumidor1.jpeg)
 
+
 ![cadastros](img/cadastrofornecedor1.jpeg)
 
 ## Tela Login
