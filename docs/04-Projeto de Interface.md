@@ -36,6 +36,7 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 
 
 
+
 ## Tela Home - Page
 
 A tela home-page mostra a área principal do site. Com base na estrutura padrão traz o logo e os acessos ao login, cadastros de consumidores e fornecedores, o API sistema geolocalização utilizada pelo site pra encontrar a localização dos postos e suas informações sobre a empresa.
@@ -46,6 +47,7 @@ A tela home-page mostra a área principal do site. Com base na estrutura padrão
 </p>
 
 
+
 ## Tela Localização do Posto
 
 A tela de localização do posto apresenta o posto localizado e suas informações desde a estrutura, preços do combustível e as últimas avaliações dos consumidores.
@@ -54,6 +56,7 @@ A tela de localização do posto apresenta o posto localizado e suas informaçõ
 
 <b>Figura X - Localização do Posto</b>
 </p>
+
 
 
 ## Tela Cadastros
@@ -74,6 +77,7 @@ A tela de cadastro dos consumidores e fornecedores será onde consumidores digit
 
 
 
+
 ## Tela Login
 
 A tela de login onde o consumidor ou fornecedor digitam seus e-mails e senhas para terem acesso as suas respectivas contas de gerenciamento. Caso tenham esquecido sua senha poderá recupera-las.
@@ -82,6 +86,7 @@ A tela de login onde o consumidor ou fornecedor digitam seus e-mails e senhas pa
 
 <b>Figura X - login</b>
 </p>
+
 
 ## Tela Fornecedor
 
@@ -93,6 +98,7 @@ Na tela de Fornecedor já logado é a área onde os donos dos postos poderão at
 </p>
 
 
+
 ## Tela Consumidor
 
 Nesta tela do consumidor já logado ele poderá atualizar os seus dados cadastrados e visualizar seus últimos postos pesquisados.
@@ -101,6 +107,7 @@ Nesta tela do consumidor já logado ele poderá atualizar os seus dados cadastra
 
 <b>Figura X - Área do Consumidor</b>
 </p>
+
 
 ## Tela Sobre a Empresa
 
