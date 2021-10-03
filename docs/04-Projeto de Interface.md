@@ -52,6 +52,9 @@ A tela de localização do posto apresenta o posto localizado e suas informaçõ
 
 ![telalocalizacao](img/localizarposto1.jpeg)
 
+<b>Figura X - Localização do Posto</b>
+</p>
+
 
 ## Tela Cadastros
 
@@ -59,8 +62,16 @@ A tela de cadastro dos consumidores e fornecedores será onde consumidores digit
 
 ![cadastros](img/cadastroconsumidor1.jpeg)
 
+<b>Figura X - Cadastro Consumidor</b>
+</p>
+
 
 ![cadastros](img/cadastrofornecedor1.jpeg)
+
+<b>Figura X - Cadastro Fornecedor</b>
+</p>
+
+
 
 ## Tela Login
 
@@ -68,11 +79,17 @@ A tela de login onde o consumidor ou fornecedor digitam seus e-mails e senhas pa
 
 ![login](img/login1.jpeg)
 
+<b>Figura X - login</b>
+</p>
+
 ## Tela Fornecedor
 
 Na tela de Fornecedor já logado é a área onde os donos dos postos poderão atualizar preços dos combustíveis e efetuar alteração de acesso: senhas, endereços, nome do estabelecimento, além de poder visualizar os feedbacks dos comentários e variação dos preços atualizados por ele nos últimos dias.
 
 ![fornecedor](img/areafornecedor1.jpeg)
+
+<b>Figura X - Área do Fornecedor</b>
+</p>
 
 ## Tela Consumidor
 
