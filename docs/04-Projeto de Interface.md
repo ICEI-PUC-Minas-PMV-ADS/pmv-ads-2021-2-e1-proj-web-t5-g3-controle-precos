@@ -66,6 +66,7 @@ A tela de cadastro dos consumidores e fornecedores será onde consumidores digit
 </p>
 
 
+
 ![cadastros](img/cadastrofornecedor1.jpeg)
 
 <b>Figura X - Cadastro Fornecedor</b>
@@ -91,15 +92,22 @@ Na tela de Fornecedor já logado é a área onde os donos dos postos poderão at
 <b>Figura X - Área do Fornecedor</b>
 </p>
 
+
 ## Tela Consumidor
 
 Nesta tela do consumidor já logado ele poderá atualizar os seus dados cadastrados e visualizar seus últimos postos pesquisados.
 
 ![consumidordor](img/areaconsumidor1.jpeg)
 
+<b>Figura X - Área do Consumidor</b>
+</p>
+
 ## Tela Sobre a Empresa
 
 Esta tela conta a história da empresa desde a sua fundação, seus objetivos e missão.
 
 ![sobre](img/sobreaempresa.jpeg)
+
+<b>Figura X - Sobre a Empresa</b>
+</p>
 
