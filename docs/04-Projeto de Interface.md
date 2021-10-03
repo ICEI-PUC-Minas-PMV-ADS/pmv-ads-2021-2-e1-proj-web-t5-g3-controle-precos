@@ -52,3 +52,9 @@ A tela de cadastro dos consumidores e fornecedores será onde consumidores digit
 
 ![cadastros](img/cadastrofornecedor.jpeg)
 
+## Tela Login
+
+A tela de login onde o consumidor ou fornecedor digitam seus e-mails e senhas para terem acesso as suas respectivas contas de gerenciamento. Caso tenham esquecido sua senha poderá recupera-las.
+
+![login](img/entrar.jpeg)
+
