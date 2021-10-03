@@ -44,4 +44,10 @@ A tela de localização do posto apresenta o posto localizado e suas informaçõ
 ![telalocalizacao](img/avaliacao.jpeg)
 
 
+## Tela Cadastros
+
+A tela de cadastro dos consumidores e fornecedores será onde consumidores digitam seus dados de e-mail, nome, telefone, CPF e senha para poderem ter acesso a área de consumidor; e o Fornecedor digita dados como endereço completo, CNPJ, Nome do Estabelecimento, estrutura e combustíveis oferecidos pelo posto.
+
+![cadastros](img/cadastroconsumidor.jpeg)
+
 
