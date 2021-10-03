@@ -64,5 +64,10 @@ Na tela de Fornecedor já logado é a área onde os donos dos postos poderão at
 
 ![fornecedor](img/areafornecedor.jpeg)
 
+## Tela Consumidor
+
+Nesta tela do consumidor já logado ele poderá atualizar os seus dados cadastrados e visualizar seus últimos postos pesquisados.
+
+![consumidordor](img/areaconsumidor.jpeg)
 
 
