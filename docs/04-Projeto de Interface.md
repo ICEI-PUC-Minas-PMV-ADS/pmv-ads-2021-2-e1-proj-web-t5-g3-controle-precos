@@ -50,4 +50,5 @@ A tela de cadastro dos consumidores e fornecedores será onde consumidores digit
 
 ![cadastros](img/cadastroconsumidor.jpeg)
 
+![cadastros](img/cadastrofornecedor.jpeg)
 
