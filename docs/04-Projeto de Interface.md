@@ -34,7 +34,7 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 
 A tela home-page mostra a área principal do site. Com base na estrutura padrão traz o logo e os acessos ao login, cadastros de consumidores e fornecedores, o API sistema geolocalização utilizada pelo site pra encontrar a localização dos postos e suas informações sobre a empresa.
 
-![telahomepage](img/sejabemvindo.jpeg)
+![telahomepage](img/sejabemvindo1.jpeg)
 
 
 ## Tela Localização do Posto
