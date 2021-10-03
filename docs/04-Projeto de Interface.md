@@ -70,4 +70,9 @@ Nesta tela do consumidor já logado ele poderá atualizar os seus dados cadastra
 
 ![consumidordor](img/areaconsumidor.jpeg)
 
+## Tela Sobre a Empresa
+
+Esta tela conta a história da empresa desde a sua fundação, seus objetivos e missão.
+
+![sobre](img/sobre.jpeg)
 
