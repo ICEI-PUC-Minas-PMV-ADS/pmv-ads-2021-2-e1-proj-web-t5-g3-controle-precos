@@ -62,5 +62,7 @@ A tela de login onde o consumidor ou fornecedor digitam seus e-mails e senhas pa
 
 Na tela de Fornecedor já logado é a área onde os donos dos postos poderão atualizar preços dos combustíveis e efetuar alteração de acesso: senhas, endereços, nome do estabelecimento, além de poder visualizar os feedbacks dos comentários e variação dos preços atualizados por ele nos últimos dias.
 
+![fornecedor](img/areafornecedor.jpeg)
+
 
 
