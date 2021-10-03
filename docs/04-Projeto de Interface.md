@@ -41,7 +41,7 @@ A tela home-page mostra a área principal do site. Com base na estrutura padrão
 
 A tela de localização do posto apresenta o posto localizado e suas informações desde a estrutura, preços do combustível e as últimas avaliações dos consumidores.
 
-![telalocalizacao](img/avaliacao.jpeg)
+![telalocalizacao](img/localizarposto1.jpeg)
 
 
 ## Tela Cadastros
