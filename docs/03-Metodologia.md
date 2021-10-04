@@ -27,8 +27,11 @@ A gestão do código fonte do software desenvolvido pelo grupo é baseada no flu
 A equipe irá utilizar o Scrum, pois tem uma gestão ágil de desenvolvimento. Dessa forma, conseguimos planejar o tempo que levamos para finalizar cada etapa de modo produtivo e eficaz, diminuindo o impacto das alterações no fluxo do processo alcançando os objetivos definidos durante a etapa de planejamento.
 
 A equipe está organizada da seguinte maneira:
+    
     • Scrum Master: André Soares
+    
     • Product Owner: Robson Levi
+    
     • Equipe de Desenvolvimento
         ◦ Camila Leopoldino
         ◦ Nayara Katlin
