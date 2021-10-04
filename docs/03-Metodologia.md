@@ -39,3 +39,8 @@ A equipe está organizada da seguinte maneira:
     • Equipe de Design
         ◦ Vânia Maria
 
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
+   - To Do: Esta lista contém as requisições em aberto e as atividades identificadas no decorrer do projeto.
+   - Em produção: Recebe as tarefas que foram iniciadas pela equipe.
+   - Em revisão: Quando a tarefa é concluída, ela é movida para cá. Como o objetivo de ser realizada uma auditoria de qualidade para assegurar que o projeto está sendo desenvolvido como esperado.
+   - Concluído: Quando uma tarefa tiver sido finalizada, ela é movida para cá.
