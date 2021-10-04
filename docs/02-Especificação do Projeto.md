@@ -20,22 +20,22 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|João(Caminhoneiro)  | Saber onde na estrada encontrarei um posto com preço bom. | Programar bem meu percurso, minhas paradas, encher o tanque e economizar.  |
-|João(Caminhoneiro)  | Saber onde na estrada encontrarei um posto seguro. |Não correr o risco de abastecer com combustível adulterado. |
-|João(Caminhoneiro)  | Encontrar no posto que eu abastecer outros serviços.| Que eu possa me alimentar e descansar.|
-|Camila(Enfermeira)  | Saber os postos de combustível que utilizo com frequência.	| Fixá-los como favoritos em minha lista. |
-|Camila(Enfermeira), João (Caminhoneiro) | Confiar nos postos próximos a mim. |	Não correr risco de estragar meu veículo. |
-|Gervásio(Motorista de app), João (Caminhoneiro) |	Comparar informações acerca da qualidade e preços tabelados de diferentes postos por região.	| Selecionar o melhor posto no quesito custo/benefício. |
-|Gervásio(Motorista de app)	| Saber os postos mais próximos de acordo com a rota que irei traçar. |	Não ter risco de ficar sem combustível. |
-|Márcio Milaré(Dono de um posto Bandeira Branca de combustivel ) |	Fidelizar mais clientes. |	Aumentar minha rede de Consumidores. |
-|Márcio Milaré(Dono de um posto Bandeira Branca de combustivel ) | Garantir o melhor custo/benefício no mercado.	| Entrar na concorrência com postos de grandes redes. |
-|Gregório Petrona(Dono de postos de combustiveis da Bandeira Shell) |	Aumentar a visibilidade dos meus postos de combustível. |	Atrair mais consumidores para abastecer na minha rede de postos e aumentar meu lucro. |
-Gregório Petrona(Dono de postos de combustiveis da Bandeira Shell) | Garantir que os motoristas saibam que meus postos contam com combustível de qualidade. | Atrair e fidelizar mais motoristas que buscam combustíveis seguros. |
+|João (Caminhoneiro)  | Saber onde na estrada encontrarei um posto com preço bom. | Programar bem meu percurso, minhas paradas, encher o tanque e economizar.  |
+|João (Caminhoneiro)  | Saber onde na estrada encontrarei um posto seguro. |Não correr o risco de abastecer com combustível adulterado. |
+|João (Caminhoneiro)  | Encontrar no posto que eu abastecer outros serviços.| Que eu possa me alimentar e descansar.|
+|Camila (Enfermeira)  | Saber os postos de combustível que utilizo com frequência.	| Fixá-los como favoritos em minha lista. |
+|Camila (Enfermeira), João (Caminhoneiro) | Confiar nos postos próximos a mim. |	Não correr risco de estragar meu veículo. |
+|Gervásio (Motorista de app), João (Caminhoneiro) |	Comparar informações acerca da qualidade e preços tabelados de diferentes postos por região.	| Selecionar o melhor posto no quesito custo/benefício. |
+|Gervásio (Motorista de app)	| Saber os postos mais próximos de acordo com a rota que irei traçar. |	Não ter risco de ficar sem combustível. |
+|Márcio Milaré (Dono de um posto Bandeira Branca de combustivel ) |	Fidelizar mais clientes. |	Aumentar minha rede de Consumidores. |
+|Márcio Milaré (Dono de um posto Bandeira Branca de combustivel ) | Garantir o melhor custo/benefício no mercado.	| Entrar na concorrência com postos de grandes redes. |
+|Gregório Petrona (Dono de postos de combustiveis da Bandeira Shell) |	Aumentar a visibilidade dos meus postos de combustível. |	Atrair mais consumidores para abastecer na minha rede de postos e aumentar meu lucro. |
+Gregório Petrona (Dono de postos de combustiveis da Bandeira Shell) | Garantir que os motoristas saibam que meus postos contam com combustível de qualidade. | Atrair e fidelizar mais motoristas que buscam combustíveis seguros. |
 
 
 ## Requisitos do Projeto
 
-Dentro do pressuposto da necessidade de criação da aplicação que buscam facilitar a vida do público-alvo os requisitos do projeto são:
+De acordo com a necessidade de criação do site que busca facilitar a vida do público-alvo, os requisitos do projeto são:
 
 ### Requisitos Funcionais
 
