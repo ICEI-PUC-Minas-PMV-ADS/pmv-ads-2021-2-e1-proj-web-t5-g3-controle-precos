@@ -9,7 +9,9 @@ Dessa maneira, é oportuno que existam canais de consultas e informações para 
 
 
 ## Problema
-De acordo com o cenário exposto, o problema que se busca resolver é o desafio que os motoristas enfrentam hoje para encontrar o melhor preço e qualidade nas compras de combustíveis.  Além disso, o projeto propõe ajudar também os fornecedores a posicionarem os postos no ambiente digital de forma confiável e acessível, visando alcançar e fidelizar mais consumidores.
+De acordo com o cenário exposto, o problema que se busca resolver é o desafio que os motoristas enfrentam hoje para encontrar o melhor preço e qualidade nas compras de combustíveis.
+
+Além disso, o projeto propõe ajudar também os fornecedores a posicionarem seus postos no ambiente digital de forma confiável e acessível, visando alcançar e fidelizar mais consumidores.
 
 
 ## Objetivos
@@ -39,6 +41,7 @@ Segundo os dados levantados, pode-se observar que a maioria dos consumidores enc
 ## Público-Alvo
 
 O foco deste trabalho está no consumidor de combustível e nos proprietários dos postos de combustível (fornecedores).
-O consumidor pode ser qualquer pessoa que abasteça seu veículo com regularidade: motorista de aplicativo, caminhoneiro, motoboy, motorista particular.
-Desta forma, estabeleceu-se como público-alvo desta solução os homens e as mulheres com mais de 18 anos que abastecem frequentemente seus veículos.
+O consumidor pode ser qualquer pessoa que abasteça seu veículo com regularidade: motorista de aplicativo, caminhoneiro, motoboy, motorista particular etc.
+
+Desta forma, estabeleceu-se como público-alvo desta solução os homens e as mulheres com mais de 18 anos que abastecem frequentemente seus veículos e empresários que sejam donos de postos.
 
