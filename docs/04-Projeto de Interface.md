@@ -2,7 +2,7 @@
 # Projeto de Interface
 
 
-Dentre as preocupações para a montagem da interface do sistema, definiu-se o foco em questões como: acessibilidade e simplicidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
+Dentre as preocupações para a montagem da interface do sistema, definiu-se o foco em questões como: acessibilidade e simplicidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis, ou seja, um site completamente responsivo.
 
 
 
