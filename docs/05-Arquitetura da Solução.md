@@ -30,7 +30,7 @@ A solução implementada conta com os seguintes módulos:
 
 ## Hospedagem
 
-O site "Abasteça Agora" utiliza o Github Pages - serviço de hospedagem do próprio Github.
+O site "Abasteça Agora" utiliza o Github Pages - serviço de hospedagem que usa arquivos HTML, CSS e JavaScript diretamente de um repositório no GitHub.
 
 > **Links Úteis**:
 >
