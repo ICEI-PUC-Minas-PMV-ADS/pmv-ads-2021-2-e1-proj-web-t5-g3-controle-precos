@@ -16,6 +16,7 @@ Os componentes que fazem parte da solução são apresentados na figura abaixo.
 
 <center>Figura ilustrativa - Arquitetura da Solução</center>
 
+
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
   - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
@@ -25,12 +26,14 @@ A solução implementada conta com os seguintes módulos:
      - **Comentários** - Feedback do consumidor acerca dos serviços e produtos do fornecedor.
      - **Avaliações** - Feedback do consumidor por meio de estrelas.
  - **APIs** - Ferramenta que permite criar um mapa personalizado, pesquisar itinerários ou dados de localização ao vivo no site.
- - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
+ - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador.
 
 
 ## Hospedagem
 
-O site "Abasteça Agora" utiliza o Github Pages - serviço de hospedagem que usa arquivos HTML, CSS e JavaScript diretamente de um repositório no GitHub.
+O "Abasteça Agora" está no Github Pages - serviço de hospedagem que usa arquivos HTML, CSS e JavaScript diretamente de um repositório no GitHub.
+
+O site é mantido no ambiente da URL: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t5-g3-controle-precos
 
 > **Links Úteis**:
 >
