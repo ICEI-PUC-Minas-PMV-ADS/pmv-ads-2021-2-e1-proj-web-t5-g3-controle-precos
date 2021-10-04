@@ -35,7 +35,7 @@ Outro ponto que contribui para a alta do petróleo é o dólar, que também disp
 
 A gasolina por aqui sobe quando a Petrobras aumenta o preço nas refinarias. A partir daí, ocorre um efeito dominó e o consumidor final acaba pagando um valor ainda mais alto pelo combustível. Além do petróleo e do dólar, custos de distribuição e impostos também influenciam no preço da gasolina.  (VALOR INVESTE, 2021).
 
-Segundo os dados levantados, pode-se observar que a maioria dos consumidores encontram uma grande dificuldade em pesquisar os preços dos combustíveis oferecidos, visto que na maioria dos casos os consumidores se deslocam de posto em posto até encontrar o melhor preço. Diante do fato, torna se necessário a existência de um site para facilitar a busca por produtos de qualidade e bom preço.
+Diante desse cenário, pode-se observar que os consumidores encontram uma grande dificuldade em pesquisar os preços dos combustíveis oferecidos. Muitos motoristas se deslocam de posto em posto para encontrar o melhor preço. Dessa maneria, torna se necessário a existência de uma solução para facilitar a busca por produtos de qualidade e bom preço, e que ainda proporcione aos fornecedores uma oportunidade de divulgar seus postos de combustíveis.
 
 
 ## Público-Alvo
