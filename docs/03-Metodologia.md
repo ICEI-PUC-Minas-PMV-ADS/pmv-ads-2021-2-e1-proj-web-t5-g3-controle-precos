@@ -11,7 +11,7 @@ Os artefatos do projeto são desenvolvidos com base em diversas plataformas e a 
 |Repositório de código fonte      |    GitHub    |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t5-g3-controle-precos                            |
 |Documentos do projeto            |    GitHub    |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t5-g3-controle-precos/tree/main/docs             |
 |Projeto de Interface e Wireframes|  MarvelApp   |https://marvelapp.com/prototype/a6d8hh5       |
-|Gerenciamento do Projeto         |    GitHub    |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t5-g3-controle-precos/tree/main/src              |
+|Gerenciamento do Projeto         |    Trello   |  https://trello.com/b/RkpMzo18/abaste%C3%A7a-agora          |
 
 
 
