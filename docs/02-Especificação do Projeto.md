@@ -48,7 +48,7 @@ Dentro do pressuposto da necessidade de criação da aplicação que buscam faci
 |RF-05	| O site terá que prover uma ferramenta de geolocalização.	| Alta |
 |RF-06	| O site deverá ter uma página com informações sobre a nossa empresa.	| Baixa |
 |RF-07	| O site deverá ter um campo de observação e avaliação por meio de notas 0 á 5 estrelas (Sendo 5 Estrelas: Excelente e 1 estrela: Muito ruim) para que o cliente deixe seu feedback em relação ao estabelecimento, atendimento, produto e serviço.	 | Baixa |
-|RF-08	| O site permitirá que fornecedores e consumidores uma area de Login.|	Média |
+|RF-08	| O site permitirá que fornecedores e consumidores acessem uma area de Login.|	Média |
 
 
 
