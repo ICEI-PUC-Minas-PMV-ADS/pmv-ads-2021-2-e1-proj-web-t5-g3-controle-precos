@@ -7,19 +7,16 @@ Dentre as preocupações para a montagem da interface do sistema, definiu-se o f
 
 
 ## User Flow
+O diagrama apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de wireframes que seguinte. Para visualizar o wireframe interativo acesse o http://marvelapp.com/prototype/a6d8hh5.
 
-
-
-![UserFlow](img/fluxo-usuario.png)
-<b>Figura X - Fluxo de telas do usuário</b>
+![fluxousuario](img/fluxo-usuario.png)
+<b>Figura 1 - Fluxo de telas do usuário</b>
 </p>
-
-O diagrama apresentado na figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de wireframes que seguinte. Para visualizar o wireframe interativo acesse o http://marvelapp.com/prototype/a6d8hh5.
 
 
 
 ## Wireframes
-Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens seguintes. As telas do sistema apresentam uma estrutura comum que é apresentada na Figura X. Nesta estrutura, existem 4 grandes blocos, descritos a seguir. São eles:
+Conforme fluxo de telas do projeto apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens seguintes. As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 2. Nesta estrutura, existem 4 grandes blocos, descritos a seguir. São eles:
 
 ●Header- local onde são dispostos elementos fixos de identidade (logo) e o login);
 
@@ -31,7 +28,7 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 
 ![Exemplo de Wireframe](img/estruturapadrao.jpg)
 
-<b>Figura X - Estrutura Padrão do Site</b>
+<b>Figura 2 - Estrutura Padrão do Site</b>
 </p>
 
 
@@ -39,11 +36,11 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 
 ## Tela Home - Page
 
-A tela home-page mostra a área principal do site. Com base na estrutura padrão traz o logo e os acessos ao login, cadastros de consumidores e fornecedores, o API sistema geolocalização utilizada pelo site pra encontrar a localização dos postos e suas informações sobre a empresa.
+A tela home-page mostra a área principal do site. Com base na estrutura padrão traz o logo, os acessos ao login, cadastros de consumidores e fornecedores e o API sistema de geolocalização utilizada pelo site pra encontrar a localização dos postos e suas informações sobre a empresa.
 
 ![telahomepage](img/sejabemvindo1.jpeg)
 
-<b>Figura X - Home Page</b>
+<b>Figura 3 - Home Page</b>
 </p>
 
 
@@ -54,7 +51,7 @@ A tela de localização do posto apresenta o posto localizado e suas informaçõ
 
 ![telalocalizacao](img/localizarposto1.jpeg)
 
-<b>Figura X - Localização do Posto</b>
+<b>Figura 4 - Localização do Posto</b>
 </p>
 
 
@@ -65,26 +62,25 @@ A tela de cadastro dos consumidores e fornecedores será onde consumidores digit
 
 ![cadastros](img/cadastroconsumidor1.jpeg)
 
-<b>Figura X - Cadastro Consumidor</b>
+<b>Figura 5 - Cadastro Consumidor</b>
 </p>
 
 
 
 ![cadastros](img/cadastrofornecedor1.jpeg)
 
-<b>Figura X - Cadastro Fornecedor</b>
+<b>Figura 6 - Cadastro Fornecedor</b>
 </p>
-
-
 
 
 ## Tela Login
 
-A tela de login onde o consumidor ou fornecedor digitam seus e-mails e senhas para terem acesso as suas respectivas contas de gerenciamento. Caso tenham esquecido sua senha poderá recupera-las.
+A tela de login onde o consumidor ou fornecedor digitam seus e-mails e senhas para terem acesso as suas respectivas contas de gerenciamento. Caso tenham esquecido sua senha poderá recuperá-las.
+
 
 ![login](img/login1.jpeg)
 
-<b>Figura X - login</b>
+<b>Figura 7 - login</b>
 </p>
 
 
@@ -94,9 +90,8 @@ Na tela de Fornecedor já logado é a área onde os donos dos postos poderão at
 
 ![fornecedor](img/areafornecedor1.jpeg)
 
-<b>Figura X - Área do Fornecedor</b>
+<b>Figura 8 - Área do Fornecedor</b>
 </p>
-
 
 
 ## Tela Consumidor
@@ -105,7 +100,7 @@ Nesta tela do consumidor já logado ele poderá atualizar os seus dados cadastra
 
 ![consumidordor](img/areaconsumidor1.jpeg)
 
-<b>Figura X - Área do Consumidor</b>
+<b>Figura 9 - Área do Consumidor</b>
 </p>
 
 
@@ -115,6 +110,6 @@ Esta tela conta a história da empresa desde a sua fundação, seus objetivos e 
 
 ![sobre](img/sobreaempresa.jpeg)
 
-<b>Figura X - Sobre a Empresa</b>
+<b>Figura 10 - Sobre a Empresa</b>
 </p>
 
