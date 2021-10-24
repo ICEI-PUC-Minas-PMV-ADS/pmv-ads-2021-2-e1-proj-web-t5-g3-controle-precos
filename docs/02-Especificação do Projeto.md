@@ -46,7 +46,7 @@ De acordo com a necessidade de criação do site que busca facilitar a vida do p
 |RF-03	| O site deve oferecer uma funcionalidade para consultas e filtragens por nome de estabelecimento, preços, serviços, localidade, e pela média de avaliações.	| Média |
 |RF-04	| O site deve permitir o gerenciamento acerca do cadastro do consumidor. Será permitido a inclusão, exclusão e atualização de dados e para cada cadastro deverão ser informados: Login, nome completo, e-mail e senha. 	| Média |
 |RF-05	| O site terá que prover uma ferramenta de geolocalização.	| Alta |
-|RF-06	| O site deverá ter uma página com informações sobre a nossa empresa.	| Baixa |
+|RF-06	| O site deverá ter uma página com informações sobre a empresa.	| Baixa |
 |RF-07	| O site deverá ter um campo de observação e avaliação por meio de notas 0 á 5 estrelas (Sendo 5 Estrelas: Excelente e 1 estrela: Muito ruim) para que o cliente deixe seu feedback em relação ao estabelecimento, atendimento, produto e serviço.	 | Baixa |
 |RF-08	| O site permitirá que fornecedores e consumidores acessem uma area de Login.|	Média |
 
