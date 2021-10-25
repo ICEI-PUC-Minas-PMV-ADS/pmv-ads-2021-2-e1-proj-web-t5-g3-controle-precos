@@ -33,8 +33,3 @@ O "Abasteça Agora" está no Github Pages - serviço de hospedagem que usa arqui
 
 O site é mantido no ambiente da URL: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t5-g3-controle-precos
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Criar um site do GitHub Pages](https://docs.github.com/pt/pages/getting-started-with-github-pages/creating-a-github-pages-site)
-> - [Sobre domínios personalizados e GitHub Pages](https://docs.github.com/pt/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)
