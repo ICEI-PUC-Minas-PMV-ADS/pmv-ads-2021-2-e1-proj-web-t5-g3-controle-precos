@@ -45,3 +45,6 @@ O consumidor pode ser qualquer pessoa que abasteça seu veículo com regularidad
 
 Desta forma, estabeleceu-se como público-alvo desta solução os homens e as mulheres com mais de 18 anos que abastecem frequentemente seus veículos e empresários que sejam donos de postos.
 
+
+(VALOR INVESTE, 2021)
+Nome da notícia: Brasileiro quer saber porque gasolina subiu tanto após alta de 27,5% no ano, disponível em: https://valorinveste.globo.com/objetivo/gastar-bem/noticia/2021/08/21/brasileiro-quer-saber-porque-gasolina-subiu-tanto-apos-alta-de-275percent-no-ano.ghtml, Data de acesso: 08 de Setembro de 2021.
