@@ -22,3 +22,15 @@ label {
  #grid-contatos tbody {
      cursor: pointer;
  }
+ header {
+    justify-content: space-between;
+    width:100%;
+    display: flex;
+    background-color: yellow;
+  }
+  footer {
+    background-color: yellow ;
+    width:100%;
+    justify-content: space-between;
+   text-align: center;
+  }

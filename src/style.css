@@ -23,6 +23,7 @@ footer {
   margin-right: 20px;
 }
 .Localidade {
+  text-align: center;
   background: white;
   max-width: 500px;
   min-height: 30vh;
@@ -30,7 +31,7 @@ footer {
   box-shadow: 5px 5px 15px #020100;
   border-radius: 12px;
   margin:auto;
-  margin-top: 10%;
+  margin-top: 1%;
 }
 
 main.form-signin {
