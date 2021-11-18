@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area Fornecedor</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="area_fornecedor.css">
+</head>
+
+<body>
+    <header>
+        <a href="home page.html"><img width="250" height="100" src="imgs/logo.png" alt="Logo"></a>
+        <input type="button" ng-click="$root.logout()" value="Sair">
+        <script>
+            $rootScope.logout = function () {
+                delete $window.sessionStorage.token;
+                $location.path('/login');
+            };
+        </script>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div id="msg" class="col-sm-10 offset-sm-1 ">
+                <!--<div class="alert alert-warning">Contato não encontrado.</div>-->
+            </div>
+        </div>
+
+        <main>
+            <div>
+                <h1>Área Fornecedor</h1>
+            </div>
+            <div>
+                <form id="infor-usua" class="col-sm-7">
+                    <div class="NE">
+                        <p><label for="bname">Nome do Estabelecimento: </label><input type="text" class="form-control"
+                                name="aname" id="bname" placeholder="Nome Completo"></p>
+                    </div>
+                    <div class="CNPJ">
+                        <p><label for="bcnpj">CNPJ: </label><input type="number" class="form-control" name="acnpj"
+                                id="bcnpj" placeholder="00.000.000/0000-00"></p>
+                    </div>
+                    <div class="SNH">
+                        <p><label for="bender">Senha: </label><input type="text" class="form-control" name="aender"
+                                id="bender" placeholder="rua, av., etc."></p>
+                    </div>
+                    <div class="estrutura">
+                        <fieldset>
+                            <legend>Estrutura: </legend>
+                            <div>
+                                <input type="checkbox" id="estacionamento" name="estacionamento" value="estacionamento">
+                                <label for="estacionamento">estacionamento </label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="ljcv" name="ljcv" value="loja de convêniencia">
+                                <label for="ljcv">Loja de convêniencia </label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="lvrp" name="lvrp" value="Lava-rápido">
+                                <label for="lvrp">Lava-rápido </label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="Banheiros" name="Banheiros" value="Banheiros">
+                                <label for="Banheiros">Banheiros </label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="outro" name="outro" value="outro">
+                                <label for="other"> Outro </label>
+                                <input type="text" id="otherValue" name="outro">
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div id="cbdps">
+                        <fieldset>
+                            <legend>Combustíveis disponíveis: </legend>
+                            <div>
+                                <input type="checkbox" id="gasolinacomum" name="gasolinacomum" value="gasolinacomum">
+                                <label for="">Gasolina Comum </label>
+                                <input type="text" id="preco" name="precogasolinacomum">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="gasolinaadit" name="gasolinaadit" value="gasolinaadit">
+                                <label for="">Gasolina Aditivada </label>
+                                <input type="text" id="preco" name="precogasolinaaditivada">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="etanol" name="etanol" value="etanol">
+                                <label for="">Etanol </label>
+                                <input type="text" id="preco" name="precoetanol">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="diesel" name="diesel" value="diesel">
+                                <label for="diesel">Diesel </label>
+                                <input type="text" id="preco" name="precodiesel">
+                            </div>
+                        </fieldset>
+                    </div>
+            </div>
+            <input type="button" class="btn btn-success" id="btnInsert" value="Salvar">
+            </form>
+    </div>
+    </main>
+
+</body>
+
+<footer>
+    <p class="mt-5 mb-3 text-muted">&copy; 2021–2021</p>
+</footer>
+
+</html>
