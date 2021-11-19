@@ -28,9 +28,9 @@ label {
     display: flex;
     background-color: yellow;
   }
-  footer {
+  Footer {
     background-color: yellow ;
     width:100%;
     justify-content: space-between;
-   text-align: center;
+    text-align: center;
   }
