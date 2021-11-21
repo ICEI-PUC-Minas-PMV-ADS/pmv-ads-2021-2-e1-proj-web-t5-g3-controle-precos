@@ -1,1 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area Fornecedor</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="area_fornecedor.css">
+    <link rel="stylesheet" href="lista_contatos.html">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <script>
+        function exibeContatos() {
+            // Remove todas as linhas do corpo da tabela
+            $("#table-contatos").html("");
+
+            // Popula a tabela com os registros do banco de dados
+            for (i = 0; i < db.data.length; i++) {
+                let contato = db.data[i];
+                $("#table-contatos").append(`<tr><td scope="row">${contato.id}</td>
+                                                <td>${contato.nome}</td>
+                                                <td>${contato.telefone}</td>
+                                                <td>${contato.email}</td>
+                                                <td>${contato.cpf}</td>
+                                                <td>${contato.cnpj}</td>
+                                                <td>${contato.ender}</td>
+                                                <td>${contato.categoria}</td>
+                                                <td>${contato.senha}</td>
+                                            </tr>`);
+            }
+        }
+
+        function init() {
+            // Adiciona funções para tratar os eventos 
+            $("#btnInsert").click(function () {
+                // Verfica se o formulário está preenchido corretamente
+                if (!$('#form-contato')[0].checkValidity()) {
+                    displayMessage("Preencha o formulário corretamente.");
+                    return;
+                }
+
+                // Obtem os valores dos campos do formulário
+                let campoNome = $("#bname").val();
+                let campoTelefone = $("#bcnpj").val();
+                let campoEmail = $('#bender').val();
+                let campoCpf = $("#inputCpf").val();
+                let contato = {
+                    nome: campoNome,
+                    telefone: campoTelefone,
+                    email: campoEmail,
+                    cpf: campoCpf,
+                    categoria: campoCategoria,
+                    senha: campoSenha
+                };
+
+                insertContato(contato);
+
+                // Reexibe os contatos
+                exibeContatos();
+
+                // Limpa o formulario
+                $("#form-contato")[0].reset();
+            });
+
+            // Intercepta o click do botão Alterar
+            $("#btnUpdate").click(function () {
+                // Obtem os valores dos campos do formulário
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    displayMessage("Selecione um contato para ser alterado.");
+                    return;
+                }
+                let campoNome = $("#bname").val();
+                let campoTelefone = $("#bcnpj").val();
+                let campoEmail = $("#bender").val();
+                let contato = {
+                    nome: campoNome,
+                    telefone: campoTelefone,
+                    email: campoEmail,
+                    cpf: campCpf,
+                    categoria: campoCategoria,
+                    senha: campoSenha
+                };
+
+                updateContato(parseInt(campoId), contato);
+
+                // Reexibe os contatos
+                exibeContatos();
+
+                // Limpa o formulario
+                $("#form-contato")[0].reset();
+            });
+
+            // Intercepta o click do botão Excluir
+            $("#btnDelete").click(function () {
+                let campoId = $("#inputId").val();
+                if (campoId == "") {
+                    displayMessage("Selecione um contato a ser excluído.");
+                    return;
+                }
+                deleteContato(parseInt(campoId));
+
+                // Reexibe os contatos
+                exibeContatos();
+
+                // Limpa o formulario
+                $("#form-contato")[0].reset();
+            });
+
+            // Intercepta o click do botão Listar Contatos
+            $("#btnClear").click(function () {
+                $("#form-contato")[0].reset();
+            });
+
+            // Oculta a mensagem de aviso após alguns segundos
+            $('#msg').bind("DOMSubtreeModified", function () {
+                window.setTimeout(function () {
+                    $(".alert").fadeTo(500, 0).slideUp(500, function () {
+                        $(this).remove();
+                    });
+                }, 5000);
+            });
+
+            // Preenche o formulário quando o usuario clicar em uma linha da tabela 
+            $("#grid-contatos").on("click", "tr", function (e) {
+                let linhaContato = this;
+                colunas = linhaContato.querySelectorAll("td");
+
+                $("#bname").val(colunas[0].innerText);
+                $("#bcnpj").val(colunas[1].innerText);
+                $("#bender").val(colunas[2].innerText);
+            });
+
+            exibeContatos();
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <a href="home page.html"><img width="250" height="100" src="imgs/logo.png" alt="Logo"></a>
+        <input type="button" ng-click="$root.logout()" value="Sair">
+        <script>
+            $rootScope.logout = function () {
+                delete $window.sessionStorage.token;
+                $location.path('/login');
+            };
+        </script>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div id="msg" class="col-sm-10 offset-sm-1 ">
+                <!--<div class="alert alert-warning">Contato não encontrado.</div>-->
+            </div>
+        </div>
+
+        <main>
+            <div>
+                <h1>Área Fornecedor</h1>
+            </div>
+            <div>
+                <form id="form-contato" class="col-sm-7">
+                    <div class="NE">
+                        <p><label for="bname">Nome do Estabelecimento: </label><input type="text" class="form-control"
+                                name="aname" id="bname" placeholder="Nome Completo"></p>
+                    </div>
+                    <div class="CNPJ">
+                        <p><label for="bcnpj">CNPJ: </label><input type="number" class="form-control" name="acnpj"
+                                id="bcnpj" placeholder="00.000.000/0000-00"></p>
+                    </div>
+                    <div class="ender">
+                        <p><label for="bender">Endereço: </label><input type="text" class="form-control" name="aender"
+                                id="bender" placeholder="rua, av., etc."></p>
+                    </div>
+                    <div class="estrutura">
+                        <fieldset>
+                            <legend>Estrutura: </legend>
+                            <div>
+                                <input type="checkbox" id="estacionamento" name="estacionamento" value="estacionamento">
+                                <label for="estacionamento">estacionamento </label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="ljcv" name="ljcv" value="loja de convêniencia">
+                                <label for="ljcv">Loja de convêniencia </label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="lvrp" name="lvrp" value="Lava-rápido">
+                                <label for="lvrp">Lava-rápido </label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="Banheiros" name="Banheiros" value="Banheiros">
+                                <label for="Banheiros">Banheiros </label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="outro" name="outro" value="outro">
+                                <label for="other"> Outro </label>
+                                <input type="text" id="otherValue" name="outro">
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div id="cbdps">
+                        <fieldset>
+                            <legend>Combustíveis disponíveis: </legend>
+                            <div>
+                                <input type="checkbox" id="gasolinacomum" name="gasolinacomum" value="gasolinacomum">
+                                <label for="">Gasolina Comum </label>
+                                <input type="text" id="preco" name="precogasolinacomum">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="gasolinaadit" name="gasolinaadit" value="gasolinaadit">
+                                <label for="">Gasolina Aditivada </label>
+                                <input type="text" id="preco" name="precogasolinaaditivada">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="etanol" name="etanol" value="etanol">
+                                <label for="">Etanol </label>
+                                <input type="text" id="preco" name="precoetanol">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="diesel" name="diesel" value="diesel">
+                                <label for="diesel">Diesel </label>
+                                <input type="text" id="preco" name="precodiesel">
+                            </div>
+                        </fieldset>
+                    </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
+                    <input type="button" class="btn btn-success" id="btnInsert" value="Salvar">
+                <p hidden><input type="button" class="btn btn-warning" id="btnUpdate" value="Alterar"></p>
+                <p hidden><input type="button" class="btn btn-danger" id="btnDelete" value="Excluir"></p>
+                    <input type="button" class="btn btn-secondary" id="btnClear" value="Limpar">
+                <p hidden><a href="lista_contatos.html"><input type="button" class="btn btn-warning" id="btnClear" value="Pesquisar Contatos"></a></p>
+                </div>
+            </div>
+            </form>
+    </div>
+
+    <div class="row" hidden>
+
+        <div class="col-sm-12">
+            <table id="grid-contatos" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nome do Estabelecimento</th>
+                        <th scope="col">CNPJ</th>
+                        <th scope="col">Endereço</th>
+                    </tr>
+                </thead>
+                <tbody id="table-contatos">
+                    <tr>
+                        <td scope="row">1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </main>
+
+</body>
+
+<footer>
+    <p class="mt-5 mb-3 text-muted">&copy; 2021–2021</p>
+</footer>
+
+</html>
