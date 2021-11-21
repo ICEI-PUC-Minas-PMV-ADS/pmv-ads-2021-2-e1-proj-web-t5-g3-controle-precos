@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  padding-top: 50px;
   background-color: rgb(255, 255, 255);
   background-size: 100%;
   background-attachment: fixed;
@@ -80,4 +81,39 @@ label {
 }
 .introdução {
   font-size:larger
+}
+
+.estrelas input[type=radio] {
+  display: none;
+}
+.estrelas label i.fa{
+  font-size: 6em
+}
+.estrelas label i.fa:before {
+  content:'*';
+  color: #FC0;
+}
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+  color: #CCC;
+}
+
+.img {
+  display: block;
+  float: left;
+  background-image:url("/imgs/localização.png");
+  width:850px;  /* Tamanho das partes 200x200 */
+  height:567px;
+  border: 1px solid #ccc;
+}
+
+.parte1 {
+ background-position: 0 0;
+}
+
+.parte2 {
+  background-position: -200px 0;
+}
+
+.parte3 {
+  background-position: -400px 0; 
 }
