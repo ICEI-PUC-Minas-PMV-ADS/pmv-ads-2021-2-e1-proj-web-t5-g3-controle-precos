@@ -17,8 +17,11 @@ footer {
   background-color: yellow ;
   width:100%;
   justify-content: space-between;
-  
+  padding-top: 5;
 
+}
+.Redes {
+  padding-top: 1%;
 }
 .botão {
   margin-top: 20px;
