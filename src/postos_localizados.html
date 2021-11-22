@@ -12,7 +12,7 @@
   <body onload="initPostoLocalizado()">
     <header>
       <div>
-        <a href="home_page.html"><img width="250" height="100" src="imgs/logo.png" alt="Logo"></a></div>
+        <img width="250" height="100" src="imgs/logo.png" alt="Logo"></div>
         <div class="botão"> 
           <a href="a_empresa.html">
             <button type="button" class="btn btn-outline-danger">A Empresa</button>
@@ -23,89 +23,70 @@
       </div>   
     </header>      
       <h1>Encontramos os melhores preços para você !</h1>
-      <div class="col-sm-12">
-            <table id="grid-contatos" class="table table-striped">
+    <div class="col-sm-12">            
+        <div class="Localidade">                            
+            <img src="imgs/mapa_2.jpeg" usemap="#image-map">
+                <map name="image-map">
+                   <area target="" alt="Posto 1" title="Posto 1" href="javascript:exibeDetalhesPosto(4);" coords="130,100,12" shape="circle">
+                   <area target="" alt="Posto 2" title="Posto 2" href="javascript:exibeDetalhesPosto(5);" coords="228,165,13" shape="circle">
+                   <area target="" alt="Posto 3" title="Posto 3" href="javascript:exibeDetalhesPosto(6);" coords="309,26,12" shape="circle">
+                </map>                                                           
+        </div>       
+        <br>                       
+        <div class="col-sm-12">                                 
+            <table id="grid-detalhes-posto-2" class="table table-striped">
                 <thead>
                     <tr>
-                        <th scope="col"></th>
-                        <th scope="col"></th>                        
-                        <th scope="col"></th>                        
+                        <th scope="col">Nome</th>
+                        <th scope="col">Telefone</th>
+                        <th scope="col">E-mail</th>                                            
                     </tr>
                 </thead>
-                <tbody>
+                <tbody id="table-detalhes-posto-2">
                     <tr>
-                        <td>
-                            <div class="col-sm-12">                                 
-                                <table id="grid-detalhes-posto-2" class="table table-striped">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col">Nome</th>
-                                            <th scope="col">Telefone</th>
-                                            <th scope="col">E-mail</th>                                            
-                                        </tr>
-                                    </thead>
-                                    <tbody id="table-detalhes-posto-2">
-                                        <tr>
-                                            <td scope="row">1</td>
-                                            <td></td> 
-                                            <td></td>                                       
-                                        </tr>                                        
-                                    </tbody>
-                                </table>                                      
-                            </div>
-                        </td>                        
-                        <td>
-                            <div class="col-sm-12">
-                                <table id="grid-detalhes-posto" class="table table-striped">
-                                    <thead>
-                                        <tr>
-                                            <th scope="col"></th>
-                                            <th scope="col"></th>                                            
-                                        </tr>
-                                    </thead>
-                                    <tbody id="table-detalhes-posto">
-                                        <tr>
-                                            <td scope="row">1</td>
-                                            <td></td>                                        
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <div class="estrelas" >
-                                    <form name=classificacao>
-                                        <input type="radio" id="cm_star-empty" name="fb" value="" checked/>
-                                        <label for="cm_star-1"><i class="fa"></i></label>
-                                        <input type="radio" id="cm_star-1" name="fb" value="1" />
-                                        <label for="cm_star-2"><i class="fa"></i></label>
-                                        <input type="radio" id="cm_star-2" name="fb" value="2" />
-                                        <label for="cm_star-3"><i class="fa"></i></label>
-                                        <input type="radio" id="cm_star-3" name="fb" value="3" />
-                                        <label for="cm_star-4"><i class="fa"></i></label>
-                                        <input type="radio" id="cm_star-4" name="fb" value="4" />
-                                        <label for="cm_star-5"><i class="fa"></i></label>
-                                        <input type="radio" id="cm_star-5" name="fb" value="5"/>
-                                    </form>
-                                </div>
-                            </div>
-                        </td>                        
-                        <td>
-                           <div class="Localidade">                            
-                                <!-- Image Map Generated by http://www.image-map.net/ -->
-                                <img src="imgs/mapa_2.jpeg" usemap="#image-map">
-
-                                <map name="image-map">
-                                    <area target="" alt="Posto 1" title="Posto 1" href="javascript:exibeDetalhesPosto(4);" coords="130,100,12" shape="circle">
-                                    <area target="" alt="Posto 2" title="Posto 2" href="javascript:exibeDetalhesPosto(5);" coords="228,165,13" shape="circle">
-                                    <area target="" alt="Posto 3" title="Posto 3" href="javascript:exibeDetalhesPosto(6);" coords="309,26,12" shape="circle">
-                                </map>                                                           
-                            </div>                                                        
-                        </td>                        
+                      <td scope="row">1</td>
+                      <td></td> 
+                      <td></td>                                       
+                    </tr>                                        
+                </tbody>
+            </table>                                      
+        </div>
+        <div class="col-sm-12">
+            <table id="grid-detalhes-posto" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">#</th>                                            
+                    </tr>
+                </thead>
+            
+                <tbody id="table-detalhes-posto">
+                    <tr>
+                    <td scope="row">1</td>
+                    <td></td>                                        
                     </tr>
                 </tbody>
             </table>
-        </div>                  
+        </div>
+        <div class="estrelas" >
+            <form name=classificacao>
+              <input type="radio" id="cm_star-empty" name="fb" value="" checked/>
+              <label for="cm_star-1"><i class="fa"></i></label>
+              <input type="radio" id="cm_star-1" name="fb" value="1" />
+              <label for="cm_star-2"><i class="fa"></i></label>
+              <input type="radio" id="cm_star-2" name="fb" value="2" />
+              <label for="cm_star-3"><i class="fa"></i></label>
+              <input type="radio" id="cm_star-3" name="fb" value="3" />
+              <label for="cm_star-4"><i class="fa"></i></label>
+              <input type="radio" id="cm_star-4" name="fb" value="4" />
+              <label for="cm_star-5"><i class="fa"></i></label>
+              <input type="radio" id="cm_star-5" name="fb" value="5"/>
+            </form>
+        </div>
+    </div>                  
         <div> 
          <p> 
-           Você é dono de posto e ainda não faz parte do nosso quadro de fornecedores? Clique aqui e se torne um dos nossos fornecedores. <br>
+           Você é dono de posto e ainda não faz parte do nosso quadro de fornecedores? <a href="area_fornecedor.html">Clique aqui</a> e se torne um dos nossos fornecedores. <br>
            Se você é um consumidor e quer avaliar os serviços dos postos.<a href="cadastro_consumidores.html">Clique aqui</a> faça já o seu cadastro.
          </p> 
         </div>      
