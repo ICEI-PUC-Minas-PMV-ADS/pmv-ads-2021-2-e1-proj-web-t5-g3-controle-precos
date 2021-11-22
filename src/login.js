@@ -32,6 +32,11 @@ const dadosIniciais = {
         { "id": generateUUID (), "login": "joaotransportes@email.com", "senha": "abc123", "nome": "João do Nascimento", "email": "joaotransportes@email.com"},
         { "id": generateUUID (), "login": "sperandiocamila@email.com", "senha": "abc123d", "nome": "Camila Sperandio", "email": "sperandiocamila@email.com"},
         { "id": generateUUID (), "login": "gersasiosanto01@email.net", "senha": "abc123abd", "nome": "Gervasio Santos", "email": "gersasiosanto01@email.net"},
+        { "id": generateUUID (), "login": "posto1@email.net", "senha": "qaz123", "nome": "Posto 1", "email": "posto1@email.net"},
+        { "id": generateUUID (), "login": "posto2@email.net", "senha": "qaz456", "nome": "Posto 2", "email": "posto2@email.net"},
+        { "id": generateUUID (), "login": "posto3@email.net", "senha": "qaz789", "nome": "Posto 3", "email": "posto3@email.net"},
+    ,
+    
     ]   
 };
 
