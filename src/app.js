@@ -207,11 +207,8 @@ var db_posto_popularidade = {
     ]
 }
 
-// Caso os dados já estejam no Local Storage, caso contrário, carrega os dados iniciais
-var db = JSON.parse(localStorage.getItem('db_contato'));
-if (!db) {
-    db = db_contatos_inicial
-};
+// Dados Fixos referentes a clientes / usuarios
+var db = db_contatos_inicial;
 
 //Busca valores referentes aos detalhes cadastrados para cada posto de gasolina
 var db_table_GasStation_Detail = JSON.parse(localStorage.getItem('db_dados_postos'));
