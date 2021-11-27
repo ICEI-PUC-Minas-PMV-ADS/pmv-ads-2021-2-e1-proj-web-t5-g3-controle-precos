@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
-
+<html lang="PT-BR">    
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +19,7 @@
 			<div id="login-row" class="row justify-content-center align-items-center">
 				<div id="login-column" class="col-md-6">
 					<div id="login-box" class="col-md-12">
-						<form id="login-form" class="form" method="post" onsubmit="loginUser (this)">
+						<form id="login-form" class="form" method="post">
 							<h3 class="text-center text-info text-danger" >Login</h3>
 							<div class="form-group">
 								<label for="username" class="text-info text-danger">Usuário</label><br>
@@ -34,8 +33,7 @@
                               <input type="submit" name="submit" class="btn btn-info btn-danger" value="Entrar">  
                             </div>
                         </form>
-                    </div>
-                    
+                    </div>                    
                 </div>
             </div>
         </div>
@@ -49,6 +47,7 @@
         
         // Declara uma função para processar o formulário de login
         function processaFormLogin (event) {                
+               
                 // Cancela a submissão do formulário para tratar sem fazer refresh da tela
                 event.preventDefault ();
 
@@ -57,13 +56,29 @@
                 var password = document.getElementById('password').value;
 
                 // Valida login e se estiver ok, redireciona para tela inicial da aplicação
-                resultadoLogin = loginUser (username, password);
-                if (resultadoLogin) {
-                    window.location.href = 'index.html';
+                var resultadoLogin = loginUser (username, password);
+
+                console.log('Tipo do usuário que efetuou login no sistema: ' + resultadoLogin.categoria);
+
+                if(resultadoLogin == null){
+                    alert('Usuário ou senha incorretos!');
+                }else{
+                    if (resultadoLogin.categoria == CONSUMIDOR) {
+                        console.log('Usuário logou no sistema. É um consumidor : ' + resultadoLogin.login );
+                        window.location.href = USUARIO_URL;
+                        return;
+                    }
+                    if (resultadoLogin.categoria == FORNECEDOR) {                        
+                        console.log('Fornecedor logou no sistema. É um fornecedor : ' + resultadoLogin.login );
+                        window.location.href = FORNECEDOR_URL;
+                        return;
+                    }else{
+                        console.log('Categoria de usuário sem tratamento : ' + resultadoLogin.categoria);
+                        alert('Usuário com cadastro incorreto!');
+                        return;
+                    }
                 }
-                else { // Se login falhou, avisa ao usuário
-                    alert ('Usuário ou senha incorretos');
-                }
+                
         }
 
         function salvaLogin (event) {
@@ -81,9 +96,12 @@
                 return
             }
 
+            alert('Gravando usuário');
+
             // Adiciona o usuário no banco de dados
             addUser (nome, login, senha, email);
             alert ('Usuário salvo com sucesso. Proceda com o login para ');
+
 
             // Oculta a div modal do login
             //document.getElementById ('loginModal').style.display = 'none';
@@ -95,7 +113,7 @@
 
 
         // Associar salvamento ao botao
-        document.getElementById ('btn_salvar').addEventListener ('click', salvaLogin);        
+        //document.getElementById ('btn_salvar').addEventListener ('click', salvaLogin);        
     </script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
