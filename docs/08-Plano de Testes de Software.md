@@ -8,8 +8,7 @@ Os requisitos para realização dos testes de software são:
 ### Casos de Testes
 Os testes funcionais a serem realizados no aplicativo são descritos a seguir:
 
-
-|Caso de teste 01     | CT 01 |
+|Caso de teste 01     | CT 01 - Localizar postos próximo ao meu local |
 |-------|-------------------------
 |Requisitos Associados | 	 RF-05 O site terá que prover uma ferramenta de geolocalização.
 |Objetivo do teste| Localizar postos próximo ao meu local. |
