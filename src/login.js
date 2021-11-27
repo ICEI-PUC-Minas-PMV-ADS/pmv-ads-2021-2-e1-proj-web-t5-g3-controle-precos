@@ -1,5 +1,14 @@
+//Constantes comunmente utilizadas no sistema
+const CONSUMIDOR = 'Consumidor';
+const FORNECEDOR = 'Fornecedor';
+
 // Página inicial de Login
 const LOGIN_URL = "login.html";
+
+//Página utilizada acessos dos usuários do sistema
+const USUARIO_URL ='cadastro_consumidores.html'; 
+//Página inicial apresentada para fornecedores após o Login
+const FORNECEDOR_URL = "area_fornecedor.html";
 
 // Objeto para o banco de dados de usuários baseado em JSON
 var db_usuarios = {};
@@ -29,32 +38,31 @@ function generateUUID() { // Public Domain/MIT
 // Dados de usuários para serem utilizados como carga inicial
 const dadosIniciais = {
     usuarios: [
-        { "id": generateUUID (), "login": "joaotransportes@email.com", "senha": "abc123", "nome": "João do Nascimento", "email": "joaotransportes@email.com"},
-        { "id": generateUUID (), "login": "sperandiocamila@email.com", "senha": "abc123d", "nome": "Camila Sperandio", "email": "sperandiocamila@email.com"},
-        { "id": generateUUID (), "login": "gersasiosanto01@email.net", "senha": "abc123abd", "nome": "Gervasio Santos", "email": "gersasiosanto01@email.net"},
-        { "id": generateUUID (), "login": "posto1@email.net", "senha": "qaz123", "nome": "Posto 1", "email": "posto1@email.net"},
-        { "id": generateUUID (), "login": "posto2@email.net", "senha": "qaz456", "nome": "Posto 2", "email": "posto2@email.net"},
-        { "id": generateUUID (), "login": "posto3@email.net", "senha": "qaz789", "nome": "Posto 3", "email": "posto3@email.net"},
-    ,
-    
+        { "id": generateUUID (), "login": "joaotransportes@email.com", "senha": "abc123", "nome": "João do Nascimento", "email": "joaotransportes@email.com","categoria":"Consumidor"},
+        { "id": generateUUID (), "login": "sperandiocamila@email.com", "senha": "abc123d", "nome": "Camila Sperandio", "email": "sperandiocamila@email.com","categoria":"Consumidor"},
+        { "id": generateUUID (), "login": "gersasiosanto01@email.net", "senha": "abc123", "nome": "Gervasio Santos", "email": "gersasiosanto01@email.net","categoria":"Consumidor"},
+        { "id": generateUUID (), "login": "posto1@email.net", "senha": "abc123", "nome": "Posto 1", "email": "posto1@email.net","categoria":"Fornecedor"},
+        { "id": generateUUID (), "login": "posto2@email.net", "senha": "abc123", "nome": "Posto 2", "email": "posto2@email.net","categoria":"Fornecedor"},
+        { "id": generateUUID (), "login": "posto3@email.net", "senha": "abc123", "nome": "Posto 3", "email": "posto3@email.net","categoria":"Fornecedor"}    
     ]   
-};
+}
 
-
-// Inicializa o usuarioCorrente e banco de dados de usuários da aplicação de Login
+ // Inicializa o usuarioCorrente e banco de dados de usuários da aplicação de Login
 function initLoginApp () {
+    
     // PARTE 1 - INICIALIZA USUARIOCORRENTE A PARTIR DE DADOS NO LOCAL STORAGE, CASO EXISTA
     usuarioCorrenteJSON = sessionStorage.getItem('usuarioCorrente');
     if (usuarioCorrenteJSON) {
         usuarioCorrente = JSON.parse (usuarioCorrenteJSON);
     }
     
+    
     // PARTE 2 - INICIALIZA BANCO DE DADOS DE USUÁRIOS
     // Obtem a string JSON com os dados de usuários a partir do localStorage
     var usuariosJSON = localStorage.getItem('db_usuarios');
 
     // Verifica se existem dados já armazenados no localStorage
-    if (!usuariosJSON) {  // Se NÃO há dados no localStorage
+    if (!usuariosJSON) {  // CONSUMIDORSe NÃO há dados no localStorage
         
         // Informa sobre localStorage vazio e e que serão carregados os dados iniciais
         alert('Dados de usuários não encontrados no localStorage. \n -----> Fazendo carga inicial.');
@@ -62,7 +70,7 @@ function initLoginApp () {
         // Copia os dados iniciais para o banco de dados 
         db_usuarios = dadosIniciais;
 
-        // Salva os dados iniciais no local Storage convertendo-os para string antes
+        // Salva os dados iniciais no local Stor´age convertendo-os para string antes
         localStorage.setItem('db_usuarios', JSON.stringify (dadosIniciais));
     }
     else  {  // Se há dados no localStorage
@@ -75,29 +83,33 @@ function initLoginApp () {
 
 // Verifica se o login do usuário está ok e, se positivo, direciona para a página inicial
 function loginUser (login, senha) {
-    
-    // Verifica todos os itens do banco de dados de usuarios 
+
+    console.log('Processa Login');
+
+    // Verifica todos os itens do txt_emailbanco de dados de usuarios 
     // para localizar o usuário informado no formulario de login
     for (var i = 0; i < db_usuarios.usuarios.length; i++) {
-        var usuario = db_usuarios.usuarios[i];
-        
+        var usuario = db_usuarios.usuarios[i];        
         // Se encontrou login, carrega usuário corrente e salva no Session Storage
         if (login == usuario.login && senha == usuario.senha) {
+            console.log(usuario.login);
             usuarioCorrente.id = usuario.id;
             usuarioCorrente.login = usuario.login;
             usuarioCorrente.email = usuario.email;
             usuarioCorrente.nome = usuario.nome;
+            usuarioCorrente.categoria = usuario.categoria;//Seleciona categoria do usuário logado ao sistema
             
             // Salva os dados do usuário corrente no Session Storage, mas antes converte para string
-            sessionStorage.setItem ('usuarioCorrente', JSON.stringify (usuarioCorrente));
-
+            sessionStorage.setItem ('usuarioCorrente', JSON.stringify (usuarioCorrente));            
             // Retorna true para usuário encontrado
-            return true;
+            return usuarioCorrente;
         }
     }
 
+    console.log('Login return false');
+
     // Se chegou até aqui é por que não encontrou o usuário e retorna falso
-    return false;
+    return null;
 }
 
 // Apaga os dados do usuário corrente no sessionStorage
