@@ -17,9 +17,16 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir:
 
 |Caso de teste 02     | CT 02 - Cadastro de Usuário |
 |-------|-------------------------
-|Requisitos Associados | 	 RF-08 O site permitirá que usuários acessem a sua própria área após o seu cadastro. RF-02 O site deve permitir o gerenciamento acerca do cadastro do consumidor. Será permitido a inclusão, exclusão e atualização de dados.
+|Requisitos Associados | 	 RF-08 O site permitirá que usuários acessem a sua própria área após o seu cadastro. RF-04 O site deve permitir o gerenciamento acerca do cadastro do consumidor. Será permitido a inclusão, exclusão e atualização de dados.
 |Objetivo do teste| Cadastrar usuário no site. |
 |Passos |	1) Acessar o navegador.	2) Clicar em " Faça seu cadastro ". 3) Digitar Nome completo, email, telefone e senha. 4) Clicar em " Salvar "|
 |Critérios de êxito| O site deve armazenar corretamente os dados do usuário. |
+
+|Caso de teste 03     | CT 02 - Cadastro de Fornecedor |
+|-------|-------------------------
+|Requisitos Associados | 	 RF-02 O site deve
+|Objetivo do teste| Cadastrar usuário no site. |
+|Passos |	1) Acessar o navegador.	2) Clicar em " Faça seu cadastro ". 3) . 4) Clicar em " Salvar "|
+|Critérios de êxito| O site deve armazenar corretamente os dados do fornecedor. |
 
 
