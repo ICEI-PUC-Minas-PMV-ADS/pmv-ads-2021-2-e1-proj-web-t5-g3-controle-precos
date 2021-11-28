@@ -28,6 +28,12 @@ A avaliação é feita por meio de notas 0 a 5 estrelas ( sendo 5 estrelas: exce
 
 ![Teste 4](img/registrodetesteavaliacaoposto1.png)
 
+## Teste 05 - Alteração de dados pelo Fornecedor
+
+![Teste 5](img/)
+
+
+
 
 
 
