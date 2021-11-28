@@ -8,19 +8,56 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <title>Area consumidor</title>
     <link rel="stylesheet" href="area_consumidor.css">
+    <script src="login.js"></script>
+    <script>
+        // Verifica se o usuário já esta logado e se negativo, redireciona para tela de login        
+        if (!usuarioCorrente.login) {
+            window.location.href = LOGIN_URL;
+        }
+
+        function exibeUsuarios() {
+            
+            // Popula a tabela com os registros do banco de dados
+            let listaUsuarios = '';
+            for (i = 0; i < db_usuarios.usuarios.length; i++) {
+                let usuario = db_usuarios.usuarios[i];
+                listaUsuarios += `<tr><td scope="row">${usuario.nome}</td><td>${usuario.login}</td><td>${usuario.email}</td></tr>`;
+            }
+
+            // Substitui as linhas do corpo da tabela
+            document.getElementById("table-usuarios").innerHTML = listaUsuarios
+
+        }
+
+        function initPage() {
+
+            // Associa a função de logout ao botão
+            document.getElementById('btn_logout').addEventListener('click', logoutUser);
+
+            // Informa o nome do usuário logado
+            document.getElementById('nomeUsuario').innerHTML = usuarioCorrente.nome;
+
+            // Lista os usuários 
+            exibeUsuarios ();
+        }
+
+        // Associa ao evento de carga da página a função para verificar se o usuário está logado
+        window.addEventListener('load', initPage);
+    </script>
 </head>
 
 <body>
     <header>
         <a href="home page.html"><img width="250" height="100" src="imgs/logo.png" alt="Logo"></a>
-        <input type="button" ng-click="$root.logout()" value="Sair">
-        <script>
-            $rootScope.logout = function () {
-                delete $window.sessionStorage.token;
-                $location.path('/login');
-            };
-        </script>
-    </header>
+                
+                <div class="introdução">
+                    <h1>Olá,<span id="nomeUsuario"> seja bem-vindo!</span></h1>
+                    <button id="btn_logout" class="btn btn-outline-danger">Efetuar Logout</button>
+                 </div>
+                    
+             
+        
+            </header>
 
     <div class="container">
         <div class="row">
@@ -31,7 +68,7 @@
 
         <main>
             <div>
-                <h1>Área Consumidor</h1>
+                <h1>Área do Consumidor</h1>
             </div>
             <div>
                 <form id="infor-usua" class="col-sm-7">
@@ -45,7 +82,11 @@
                             id="btelef" placeholder="Telefone/celular"></p>
                     <p><label for="bsenha">Senha: </label><input type="password" class="form-control" name="asenha"
                             id="bsenha" placeholder="Senha"></p>
+                    <p><label for="bsenha">Confirme a senha:</label><input type="password" class="form-control" name="asenha"
+                                id="bsenha" placeholder="Senha"></p>        
                     <input type="button" class="btn btn-success" id="btnInsert" value="Salvar">
+                    <input type="button" class="btn btn-warning" id="btnUpdate" value="Alterar">
+                    <input type="button" class="btn btn-secondary" id="btnClear" value="Limpar">
                 </form>
             </div>
         </main>

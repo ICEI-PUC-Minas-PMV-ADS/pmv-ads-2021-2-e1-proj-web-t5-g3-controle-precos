@@ -6,7 +6,7 @@ const FORNECEDOR = 'Fornecedor';
 const LOGIN_URL = "login.html";
 
 //Página utilizada acessos dos usuários do sistema
-const USUARIO_URL ='cadastro_consumidores.html'; 
+const USUARIO_URL ='area_consumidor.html'; 
 //Página inicial apresentada para fornecedores após o Login
 const FORNECEDOR_URL = "area_fornecedor.html";
 
