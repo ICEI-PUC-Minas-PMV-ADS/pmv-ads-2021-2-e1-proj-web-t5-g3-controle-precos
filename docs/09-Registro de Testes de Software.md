@@ -3,7 +3,7 @@
 ## Teste 01 - Localizar Postos próximos ao meu local
 
 Ao clicar no botão " localizar " o mapa localiza três postos próximos, postos estes que foram previamente cadastrados e avaliados pelos consumidores. Só será possível um consumidor avaliar um posto após se cadastrar no site e logar em sua área.
-Ao clicar sobre o posto localizado é carregado os valores, endereço e serviços prestados por cada um dos três postos.
+Ao clicar sobre o posto localizado são carregados os valores, endereço e serviços prestados por cada um dos três postos.
 
 ![Teste 1](img/registrodetestepostoslocalizados.png)
 
