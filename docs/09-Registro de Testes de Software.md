@@ -28,9 +28,12 @@ A avaliação é feita por meio de notas 0 a 5 estrelas ( sendo 5 estrelas: exce
 
 ![Teste 4](img/registrodetesteavaliacaoposto1.png)
 
+
 ## Teste 05 - Alteração de dados pelo Fornecedor
 
-![Teste 5](img/)
+Para manter os preços e serviços sempre atualizados é necessario que o fornecedor esteja logado no site e atualize suas informações. O site registra e atualiza corretamente a informação dada pelo fornecedor.
+
+![Teste 5](img/registrodetestefornecedorlogado.png)
 
 
 
