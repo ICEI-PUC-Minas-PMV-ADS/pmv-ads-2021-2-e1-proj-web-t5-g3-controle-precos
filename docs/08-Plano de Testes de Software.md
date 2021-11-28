@@ -43,12 +43,6 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir:
 |Passos |	1) Acessar o navegador.	2) Informar o endereço do site. 3) Logar na sua conta. 4) Alterar os dados desejados na sua área do fornecedor. 5) Salvar.|
 |Critérios de êxito| O site deve encontrar os dados do fornecedor, permitir que faça alterações e salve.  |
 
-|Caso de teste 06     | CT 06 -   |
-|-------|-------------------------
-|Requisitos Associados | 	 RF-0.
-|Objetivo do teste| . |
-|Passos |	1) Acessar o navegador.	2) Informar o endereço do site. 3) .|
-|Critérios de êxito| . |
 
 
 
