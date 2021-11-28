@@ -11,7 +11,6 @@ Criação de uma plataforma de consultas e informações  para auxiliar os consu
 ## Integrantes
 
 * André Soares
-* Camila Leopoldino
 * Nayara Katlin
 * Robson Levi
 * Vânia Rezende
