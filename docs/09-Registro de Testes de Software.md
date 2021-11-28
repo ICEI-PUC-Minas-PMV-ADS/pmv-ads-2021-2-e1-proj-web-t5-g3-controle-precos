@@ -24,14 +24,14 @@ Para cadastrar o fornecedor deve se informar razão social, nome fantasia, servi
 
 ## Teste 04 - Avaliação de Postos
 
-A avaliação é feita por meio de notas 0 a 5 estrelas ( sendo 5 estrelas: excelente  e 1 estrela: muito ruim ). Só é possivel fazer uma avaliação se o consumidor estiver logado em sua área. O site calcula a média das avaliações recebidas de cada posto e registra.
+A avaliação é feita por meio de notas de 0 a 5 estrelas ( sendo 5 estrelas: excelente  e 1 estrela: muito ruim ). Só é possivel fazer uma avaliação se o consumidor estiver logado em sua área. O site calcula a média das avaliações recebidas de cada posto e registra.
 
 ![Teste 4](img/registrodetesteavaliacaoposto1.png)
 
 
 ## Teste 05 - Alteração de dados pelo Fornecedor
 
-Para manter os preços e serviços sempre atualizados é necessario que o fornecedor esteja logado no site e atualize suas informações. O site registra e atualiza corretamente a informação dada pelo fornecedor.
+Para manter os preços e serviços sempre atualizados é necessário que o fornecedor esteja logado no site e atualize suas informações. O site registra e atualiza corretamente a informação dada pelo fornecedor.
 
 ![Teste 5](img/registrodetestefornecedorlogado.png)
 
