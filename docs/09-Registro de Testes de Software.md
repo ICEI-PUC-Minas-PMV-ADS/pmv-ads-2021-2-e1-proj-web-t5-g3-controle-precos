@@ -10,7 +10,7 @@ Ao clicar sobre o posto localizado são carregados os valores, endereço e servi
 
 ## Teste 02 - Cadastro de Consumidor
 
-No cadastro é preciso informar nome completo, email, telefone e senha. O site armazena corretamento os dados e localiza quando é feito o login.
+No cadastro é preciso informar nome completo, email, telefone e senha. O site armazena corretamente os dados e localiza quando é feito o login.
 
 ![Teste 2](img/registrodetestecadastroconumidor.png)
 
