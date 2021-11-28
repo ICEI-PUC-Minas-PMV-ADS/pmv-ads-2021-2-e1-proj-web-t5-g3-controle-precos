@@ -29,6 +29,27 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir:
 |Passos |	1) Acessar o navegador.	2) Clicar em " Faça seu cadastro ". 3) Informar razão social, nome fantasia, endereço, serviços e valores. 4) Clicar em " Salvar "|
 |Critérios de êxito| O site deve armazenar corretamente os dados do fornecedor. |
 
+|Caso de teste 04     | CT 04 -  |
+|-------|-------------------------
+|Requisitos Associados | 	 RF-0.
+|Objetivo do teste| . |
+|Passos |	1) .	2) . 3) .|
+|Critérios de êxito| . |
+
+|Caso de teste 05     | CT 05 -  |
+|-------|-------------------------
+|Requisitos Associados | 	 RF-0.
+|Objetivo do teste| . |
+|Passos |	1) .	2) . 3) .|
+|Critérios de êxito| . |
+
+|Caso de teste 06     | CT 06 -  |
+|-------|-------------------------
+|Requisitos Associados | 	 RF-0.
+|Objetivo do teste| . |
+|Passos |	1) .	2) . 3) .|
+|Critérios de êxito| . |
+
 
 
 
