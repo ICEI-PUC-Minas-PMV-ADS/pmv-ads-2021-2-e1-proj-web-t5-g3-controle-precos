@@ -21,6 +21,7 @@ Para cadastrar o fornecedor deve se informar razão social, nome fantasia, servi
 ![Teste 3](img/registrodetestecadastrofornecedor.png)
 
 
+## Teste 04 - Avaliação de Postos
 
 
 
@@ -30,6 +31,4 @@ Para cadastrar o fornecedor deve se informar razão social, nome fantasia, servi
 
 
 
-
-## Avaliação
 
