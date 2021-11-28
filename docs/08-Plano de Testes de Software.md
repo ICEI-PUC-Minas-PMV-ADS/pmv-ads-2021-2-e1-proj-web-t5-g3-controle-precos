@@ -10,7 +10,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir:
 
 |Caso de teste 01     | CT 01 - Localizar Posto Próximo ao meu Local |
 |-------|-------------------------
-|Requisitos Associados | 	 RF-05 O site terá que prover uma ferramenta de geolocalização. RF-03 O site deve oferecer uma funcionalidade para consultas e filytragens por nome de estabelecimento, preços, serviços, localidade, e pela média de avaliações.
+|Requisitos Associados | 	 RF-05 O site terá que prover uma ferramenta de geolocalização. RF-03 O site deve oferecer uma funcionalidade para consultas e filtragens por nome de estabelecimento, preços, serviços, localidade, e pela média de avaliações.
 |Objetivo do teste| Localizar posto próximo ao meu local. |
 |Passos |	1) Acessar o navegador.	2) Informar o endereço do site. 3) Clicar em " Localizar postos ". 4) Visualizar mapa com três postos localizados.|
 |Critérios de êxito| A página deve exibir um mapa com pelo menos três postos localizados. |
@@ -36,7 +36,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir:
 |Passos |	1) Acessar o navegador.	2) Informar o endereço do site. 3)  .|
 |Critérios de êxito| . |
 
-|Caso de teste 05     | CT 05 -  |
+|Caso de teste 05     | CT 05 - Ateração de dados pelo Fornecedor |
 |-------|-------------------------
 |Requisitos Associados | 	 RF-01. O site deve permitir a atualização e alteração dos preços por parte dos fornecedores.
 |Objetivo do teste| . |
