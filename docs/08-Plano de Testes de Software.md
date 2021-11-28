@@ -33,10 +33,10 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir:
 |-------|-------------------------
 |Requisitos Associados | 	 RF-07 O site deverá ter um campo de observação e avaliação, por meio de notas 0 á 5 estrelas (Sendo 5 Estrelas: Excelente e 1 estrela: Muito ruim) para que o cliente deixe seu feedback em relação ao estabelecimento, atendimento, produto e serviço.
 |Objetivo do teste| Permitir que consumidor avalie um posto utilizado |
-|Passos |	1) Acessar o navegador.	2) Informar o endereço do site. 3)  .|
-|Critérios de êxito| . |
+|Passos |	1) Acessar o navegador.	2) Informar o endereço do site. 3) Logar na sua conta. 4) Localizar posto. 5) Clicar na quantidade de estrelas à atribuir.|
+|Critérios de êxito| O site deve armazenar e mostrar a média avaliativa do posto.|
 
-|Caso de teste 05     | CT 05 - Ateração de dados pelo Fornecedor |
+|Caso de teste 05     | CT 05 - Alteração de dados pelo Fornecedor |
 |-------|-------------------------
 |Requisitos Associados | 	 RF-01. O site deve permitir a atualização e alteração dos preços por parte dos fornecedores.
 |Objetivo do teste| . |
