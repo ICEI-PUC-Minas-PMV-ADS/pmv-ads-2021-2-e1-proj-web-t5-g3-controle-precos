@@ -8,7 +8,7 @@ Os requisitos para realização dos testes de software são:
 ### Casos de Testes
 Os testes funcionais a serem realizados no aplicativo são descritos a seguir:
 
-|Caso de teste 01     | CT 01 - Localizar Posto Próximo ao meu Local |
+|Caso de teste 01     | CT 01 - Localizar Postos Próximo ao meu Local |
 |-------|-------------------------
 |Requisitos Associados | 	 RF-05 O site terá que prover uma ferramenta de geolocalização. RF-03 O site deve oferecer uma funcionalidade para consultas e filtragens por nome de estabelecimento, preços, serviços, localidade, e pela média de avaliações.
 |Objetivo do teste| Localizar posto próximo ao meu local. |
@@ -34,7 +34,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir:
 |Requisitos Associados | 	 RF-07 O site deverá ter um campo de observação e avaliação, por meio de notas 0 á 5 estrelas (Sendo 5 Estrelas: Excelente e 1 estrela: Muito ruim) para que o cliente deixe seu feedback em relação ao estabelecimento, atendimento, produto e serviço.
 |Objetivo do teste| Permitir que consumidor avalie um posto utilizado |
 |Passos |	1) Acessar o navegador.	2) Informar o endereço do site. 3) Logar na sua conta. 4) Localizar posto. 5) Clicar na quantidade de estrelas à atribuir.|
-|Critérios de êxito| O site deve armazenar e mostrar a média avaliativa do posto.|
+|Critérios de êxito| O site deve armazenar e calcular e mostrar a média das avaliações do posto.|
 
 |Caso de teste 05     | CT 05 - Alteração de dados pelo Fornecedor |
 |-------|-------------------------
