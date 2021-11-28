@@ -6,6 +6,12 @@ Ao clicar no botão " localizar " o mapa localiza três postos próximos, postos
 
 ![Teste 1](img/registrodetestetelainicial.png)
 
+Teste 02 - Cadastro de Consumidor
+
+![Teste 2](img/registrodetestetecadastroconsumidor.png)
+
+
+
 
 
 
