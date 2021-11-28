@@ -24,9 +24,9 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir:
 
 |Caso de teste 03     | CT 02 - Cadastro de Fornecedor |
 |-------|-------------------------
-|Requisitos Associados | 	 RF-02 O site deve
-|Objetivo do teste| Cadastrar usuário no site. |
-|Passos |	1) Acessar o navegador.	2) Clicar em " Faça seu cadastro ". 3) . 4) Clicar em " Salvar "|
+|Requisitos Associados | 	 RF-02 O site deve permitir o gerenciamento dos cadastros de fornecedores. Será permitido a inclusão, exclusão e atualização de dados, para cada cadastro deverá ser informado: razão social, nome fantasia, endereço e serviços.
+|Objetivo do teste| Cadastrar fornecedor no site. |
+|Passos |	1) Acessar o navegador.	2) Clicar em " Faça seu cadastro ". 3) Informar razão social, nome fantasia, endereço, serviços e valores. 4) Clicar em " Salvar "|
 |Critérios de êxito| O site deve armazenar corretamente os dados do fornecedor. |
 
 
