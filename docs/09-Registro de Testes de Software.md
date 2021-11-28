@@ -24,7 +24,11 @@ Para cadastrar o fornecedor deve se informar razão social, nome fantasia, servi
 
 ## Teste 04 - Avaliação de Postos
 
+A avaliação é feita por meio de notas 0 a 5 estrelas ( sendo 5 estrelas: excelente  e 1 estrela: muito ruim ). Só é possivel fazer uma avaliação se o consumidor estiver logado em sua área. O site calcula a média das avaliações recebidas de cada posto e registra.
+
 ![Teste 4](img/registrodetesteavaliacaoposto1.png)
+
+
 
 
 
