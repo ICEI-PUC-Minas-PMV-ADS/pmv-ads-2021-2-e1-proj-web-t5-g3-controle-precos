@@ -1,6 +1,6 @@
 # Registro de Testes de Software
 
-## Teste 01 - O site deve localizar postos próximo ao meu local 
+## Teste 01 - Localizar Postos próximos ao meu local
 
 Ao clicar no botão " localizar " o mapa localiza três postos próximos, postos estes que foram previamente cadastrados e avaliados pelos consumidores. Spo será possível um consumidor avaliar um posto só após se cadastrar no site e logar em sua área.
 
@@ -14,7 +14,7 @@ O site deve permitir que consumidores acessem a sua própria área para avaliar 
 
 ## Teste 03 - Cadastro de Fornecedor
 
-![Teste 3](img/registrodetestecadastroconumidor.png)
+![Teste 3](img/registrodetestecadastrofornecedor.png)
 
 
 
