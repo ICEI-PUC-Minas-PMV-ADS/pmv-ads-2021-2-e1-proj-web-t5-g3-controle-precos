@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Area Fornecedor</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">   
     <link rel="stylesheet" href="area_fornecedor.css">
     <link rel="stylesheet" href="lista_contatos.html">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
@@ -208,6 +209,20 @@
                         <p><label for="bender">Endereço: </label><input type="text" class="form-control" name="aender"
                                 id="bender" placeholder="rua, av., etc."></p>
                     </div>
+                    Sua avaliação
+                    <div class="estrelas">
+                        <input type="radio" id="cm_star-empty" name="fb" value="" checked/>
+                        <label for="cm_star-1"><i class="fa"></i></label>
+                        <input type="radio" id="cm_star-1" name="fb" value="1"/>
+                        <label for="cm_star-2"><i class="fa"></i></label>
+                        <input type="radio" id="cm_star-2" name="fb" value="2"/>
+                        <label for="cm_star-3"><i class="fa"></i></label>
+                        <input type="radio" id="cm_star-3" name="fb" value="3"/>
+                        <label for="cm_star-4"><i class="fa"></i></label>
+                        <input type="radio" id="cm_star-4" name="fb" value="4"/>
+                        <label for="cm_star-5"><i class="fa"></i></label>
+                        <input type="radio" id="cm_star-5" name="fb" value="5"/>
+                      </div>
                     <div class="estrutura">
                         <fieldset>
                             <legend>Estrutura: </legend>
@@ -263,7 +278,7 @@
             <div class="form-group row">
                 <div class="col-sm-12">
                     <input type="button" class="btn btn-success" id="btnInsert" value="Salvar">
-                <p hidden><input type="button" class="btn btn-warning" id="btnUpdate" value="Alterar"></p>
+                    <input type="button" class="btn btn-warning" id="btnUpdate" value="Alterar">
                 <p hidden><input type="button" class="btn btn-danger" id="btnDelete" value="Excluir"></p>
                     <input type="button" class="btn btn-secondary" id="btnClear" value="Limpar">
                 <p hidden><a href="lista_contatos.html"><input type="button" class="btn btn-warning" id="btnClear" value="Pesquisar Contatos"></a></p>
