@@ -39,11 +39,11 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir:
 |Caso de teste 05     | CT 05 - Alteração de dados pelo Fornecedor |
 |-------|-------------------------
 |Requisitos Associados | 	 RF-01. O site deve permitir a atualização e alteração dos preços por parte dos fornecedores.
-|Objetivo do teste| . |
-|Passos |	1) Acessar o navegador.	2) Informar o endereço do site. 3) .|
-|Critérios de êxito| . |
+|Objetivo do teste| Permitir que o fornecedor altere seus dados, preços e serviços prestados |
+|Passos |	1) Acessar o navegador.	2) Informar o endereço do site. 3) Logar na sua conta. 4) Alterar os dados desejados na sua área do fornecedor. 5) Salvar.|
+|Critérios de êxito| O site deve encontrar os dados do fornecedor, permitir que faça alterações e salve.  |
 
-|Caso de teste 06     | CT 06 -  |
+|Caso de teste 06     | CT 06 -   |
 |-------|-------------------------
 |Requisitos Associados | 	 RF-0.
 |Objetivo do teste| . |
