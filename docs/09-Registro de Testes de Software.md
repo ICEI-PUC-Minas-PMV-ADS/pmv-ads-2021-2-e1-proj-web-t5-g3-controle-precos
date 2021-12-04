@@ -18,7 +18,16 @@ No cadastro é preciso informar nome completo, email, telefone e senha. O site a
 ## Teste 03 - Cadastro de Fornecedor
 
 Para cadastrar o fornecedor deve se informar razão social, nome fantasia, serviços e valores. O site armazena corretamente os dados e localiza os quando é feito o login.
+Fornecedores Cadastrados:
 
+Login: posto1@email.net
+Senha: abc123abd
+
+Login: posto2@email.net
+Senha: abc123abd
+
+Login: posto3@email.net
+Senha: abc123abd
 ![Teste 3](img/registrodetestecadastrofornecedor.png)
 
 
