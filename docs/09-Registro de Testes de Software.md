@@ -11,6 +11,16 @@ Ao clicar sobre o posto localizado são carregados os valores, endereço e servi
 ## Teste 02 - Cadastro de Consumidor
 
 No cadastro é preciso informar nome completo, email, telefone e senha. O site armazena corretamente os dados e localiza quando é feito o login.
+Consumidores Cadastrados:
+
+Login: joaotransportes@email.com
+Senha: abc123
+
+Login: sperandiocamila@email.com
+Senha: abc123d
+
+Login: gersasiosanto01@email.net
+Senha: abc123abd
 
 ![Teste 2](img/registrodetestecadastroconumidor.png)
 
