@@ -1,7 +1,7 @@
 # Programação de Funcionalidades
 
 <span style="color:red">
-A Tela principal a Home page do site se encontra disponivel neste link https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2021-2-e1-proj-web-t5-g3-controle-precos/src/home_page.html 
+A Tela principal a Home page do site se encontra disponivel neste link https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2021-2-e1-proj-web-t5-g3-controle-precos/index.hmtl 
 
 |ID    | Descrição do Requisito  | Artefato |
 |------|-----------------------------------------|----|
